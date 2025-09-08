@@ -71,7 +71,7 @@ export default function JobCards() {
         <div className="card">
           <div className="card-body mb-n2">
             {dataTwo.designJobList.map((item) => (
-              <JobPostCard2 {...item} key={item.id} />
+              <JobPostCard2 no={""} body={undefined} expand={false} {...item} key={item.id} />
             ))}
           </div>
 
