@@ -52,7 +52,7 @@ export default function Navbar4({
               data-bs-scroll="true"
               id="offcanvas-nav">
               <div className="offcanvas-header d-lg-none">
-                <h3 className="text-white fs-30 mb-0">Sandbox</h3>
+                <h3 className="text-white fs-30 mb-0">ThaiChi Federation</h3>
                 <button
                   type="button"
                   aria-label="Close"

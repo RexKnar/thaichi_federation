@@ -28,8 +28,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Sandbox - Modern & Multipurpose NextJS Template",
-  description: "Sandbox is a beautiful and flawless site template."
+  title: "ThaiChi Federation of India",
+  description: "ThaiChi Federation of India"
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
