@@ -25,7 +25,7 @@ export default function BlogCard2({ cardTop, title, category, description, link 
               <NextLink title={category} href="#" className="hover" />
             </div>
 
-            <h2 className="post-title mt-1 mb-0">
+            <h2 className="mt-1 mb-0 post-title">
               <NextLink title={title} className="link-dark" href={link} />
             </h2>
           </div>
@@ -35,8 +35,8 @@ export default function BlogCard2({ cardTop, title, category, description, link 
           </div>
         </div>
 
-        <div className="card-footer">
-          <ul className="post-meta d-flex mb-0">
+        {/* <div className="card-footer">
+          <ul className="mb-0 post-meta d-flex">
             <li className="post-date">
               <i className="uil uil-calendar-alt" />
               <span>5 Jul 2022</span>
@@ -61,7 +61,7 @@ export default function BlogCard2({ cardTop, title, category, description, link 
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </article>
   );

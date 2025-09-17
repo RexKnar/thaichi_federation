@@ -70,7 +70,7 @@ export default function NavbarOne({
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="text-white fs-30 mb-0">ThaiChi Federation</h3>
+          <h3 className="mb-0 text-white fs-30">taiChi Federation</h3>
           <button
             type="button"
             aria-label="Close"
@@ -82,10 +82,10 @@ export default function NavbarOne({
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
       
-              <ListItemLink  href="/home" title="Home" linkClassName="nav-link " />
-              <ListItemLink  href="" title="About" linkClassName="nav-link " />
-              <ListItemLink  href="" title="Gallery" linkClassName="nav-link " />
-              <ListItemLink  href="" title="Courses" linkClassName="nav-link " />
+              <ListItemLink  href="/" title="Home" linkClassName="nav-link " />
+              <ListItemLink  href="/about" title="About" linkClassName="nav-link " />
+              <ListItemLink  href="/gallery" title="Gallery" linkClassName="nav-link " />
+              <ListItemLink  href="/courses" title="Courses" linkClassName="nav-link " />
               <ListItemLink  href="/contact" title="Contact" linkClassName="nav-link " />
              
            

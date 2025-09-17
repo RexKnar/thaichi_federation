@@ -19,26 +19,26 @@ export default function Page() {
       {/* ========== header section ========== */}
       <header className="wrapper bg-gray">
     
-    <Navbar  fancy navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light position-absolute"  button={<NextLink title="Contact" href="#" className="btn btn-sm btn-primary rounded" />}/>
+    <Navbar  fancy navClassName="navbar navbar-expand-lg fancy navbar-light navbar-bg-light position-absolute"  button={<NextLink title="Contact" href="#" className="rounded btn btn-sm btn-primary" />}/>
   </header>
 
       <main className="content-wrapper ">
         {/* ========== page title section ========== */}
-        <section className="wrapper bg-soft-primary pt-15">
-          <div className="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
-            <div className="row">
-              <div className="col-sm-10 col-md-8 col-lg-6 col-xl-6 col-xxl-5 mx-auto">
-                <h1 className="display-1 mb-3">Get in Touch</h1>
-                <Breadcrumb data={breadcrumb} />
-              </div>
+        <section className="wrapper bg-soft-primary">
+            <div className="container pb-5 text-center pt-18 pt-md-18 pb-md-5">
+                <div className="row">
+                    <div className="mx-auto mb-6 col-xl-5">
+                        <h1 className="mb-3 display-1">Get In Touch</h1>
+                        <p className="mb-0 lead">TaiChi Federation Of India</p>
+                    </div>
+                </div>
             </div>
-          </div>
         </section>
 
         <div className="wrapper bg-light angled upper-end">
           <div className="container py-14 py-md-16">
             {/* ========== contact info section ========== */}
-            <div className="row gy-10 gx-lg-8 gx-xl-12 mb-16 align-items-center">
+            <div className="mb-16 row gy-10 gx-lg-8 gx-xl-12 align-items-center">
               <div className="col-lg-7 position-relative">
                 <div className="shape bg-dot primary rellax w-18 h-18" style={{ top: 0, left: "-1.4rem", zIndex: 0 }} />
 
@@ -46,8 +46,8 @@ export default function Page() {
               </div>
 
               <div className="col-lg-5">
-                <h2 className="display-4 mb-8">Convinced yet? Let's make something great together.</h2>
-                <div className="d-flex flex-row">
+                <h2 className="mb-8 display-4">Convinced yet? Let's make something great together.</h2>
+                <div className="flex-row d-flex">
                   <div>
                     <div className="icon text-primary fs-28 me-6 mt-n1">
                       <i className="uil uil-location-pin-alt" />
@@ -64,7 +64,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="d-flex flex-row">
+                <div className="flex-row d-flex">
                   <div>
                     <div className="icon text-primary fs-28 me-6 mt-n1">
                       <i className="uil uil-phone-volume" />
@@ -77,7 +77,7 @@ export default function Page() {
                   </div>
                 </div>
 
-                <div className="d-flex flex-row">
+                <div className="flex-row d-flex">
                   <div>
                     <div className="icon text-primary fs-28 me-6 mt-n1">
                       <i className="uil uil-envelope" />
@@ -99,8 +99,8 @@ export default function Page() {
             {/* ========== contact form section ========== */}
             <div className="row">
               <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 className="display-4 mb-3 text-center">Drop Us a Line</h2>
-                <p className="lead text-center mb-10">
+                <h2 className="mb-3 text-center display-4">Drop Us a Line</h2>
+                <p className="mb-10 text-center lead">
                   Reach out to us from our contact form and we will get back to you shortly.
                 </p>
 

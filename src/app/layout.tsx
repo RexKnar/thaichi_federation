@@ -28,8 +28,8 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "ThaiChi Federation of India",
-  description: "ThaiChi Federation of India"
+  title: "TaiChi Federation of India",
+  description: "TaiChi Federation of India"
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {

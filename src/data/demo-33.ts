@@ -115,5 +115,23 @@ export const timelines = [
     duration: 'MAY 2011 - SEP 2015',
     title: 'Creative Director at Malory House',
     description: `Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.`
+  },
+  {
+    id: 4,
+    duration: 'NOV 2017 - PRESENT',
+    title: 'Creative Director at Malory House',
+    description: `Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non euismod id nulla.`
+  },
+  {
+    id: 5,
+    duration: 'SEP 2015 - APR 2017',
+    title: 'Creative Director at Malory House',
+    description: `Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis eu pede mollis pretium. Pellentesque ut neque.`
+  },
+  {
+    id: 6,
+    duration: 'MAY 2011 - SEP 2015',
+    title: 'Creative Director at Malory House',
+    description: `Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.`
   }
 ];
