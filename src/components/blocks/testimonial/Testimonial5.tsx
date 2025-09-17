@@ -1,9 +1,17 @@
 import Carousel from "components/reuseable/Carousel";
 import { TestimonialCard2 } from "components/reuseable/testimonial-cards";
-// CUSTOM DATA
-import { testimonialList2 } from "data/testimonial-list";
+
 
 export default function Testimonial5() {
+  const testimonialList2 = [
+    {
+      name: '',
+      image: '/img/martialarts/training-2.jpg',
+      designation: '“Tai Chi is not just a form, it’s a way of life.”',
+      review: ` Our Master, B. Shunmugam, has over 25 years of experience in Yang Style Tai Chi. He was trained under the traditional lineage of the late Master Micheal A. Selvaraj, whose passion for sharing authentic yang style Tai Chi continues to inspire and guide our teaching.`
+    },
+  ];
+  
   return (
     <section className="wrapper bg-soft-aqua">
       <div className="container pt-16 pb-14 pb-md-0">
@@ -15,7 +23,7 @@ export default function Testimonial5() {
             />
 
             <figure>
-              <img src="/img/photos/co1.png" srcSet="/img/photos/co1@2x.png 2x" alt="" />
+              <img src="/img/martialarts/master.png" srcSet="/img/martialarts/master.png" alt="" />
             </figure>
           </div>
 

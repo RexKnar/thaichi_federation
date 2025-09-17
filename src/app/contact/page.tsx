@@ -2,7 +2,7 @@ import { Fragment } from "react";
 // GLOBAL CUSTOM COMPONENTS
 import Navbar from "components/blocks/navbar/navbar-1";
 import { Tiles3 } from "components/elements/tiles";
-import { Footer8 } from "components/blocks/footer";
+import { Footer10, Footer8 } from "components/blocks/footer";
 import ContactForm from "components/common/ContactForm";
 import Breadcrumb from "components/reuseable/Breadcrumb";
 import NextLink from "components/reuseable/links/NextLink";
@@ -112,7 +112,7 @@ export default function Page() {
       </main>
 
       {/* ========== footer section ========== */}
-      <Footer8 />
+      <Footer10 />
     </Fragment>
   );
 }
