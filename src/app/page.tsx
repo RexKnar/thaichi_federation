@@ -49,7 +49,7 @@ export default function Page() {
          <section className="wrapper bg-soft-primary">
           <div className="container py-16 py-md-18">
             <Process19 />
-            <div className="mx-auto col-6">
+            <div className="mx-auto col-12 col-md-6">
             <BlogCard2
               link="#"
               category="30–45 min demo session"
