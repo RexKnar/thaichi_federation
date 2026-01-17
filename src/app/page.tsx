@@ -48,12 +48,37 @@ export default function Page() {
          </section>
          <section className="wrapper bg-soft-primary">
           <div className="container py-16 py-md-18">
-            <Process19 />
-            <div className="mx-auto col-12 col-md-6">
+            {/* <Process19 /> */}
+            <div className="row text-center">
+        <div className="col-md-10 col-lg-7 mx-auto position-relative">
+          <img
+            data-delay="1800"
+            src="/img/svg/doodle5.svg"
+            className="w-15 position-absolute d-none d-lg-block"
+            style={{ bottom: "-60%", right: "10%" }}
+            alt=""
+          />
+
+          <img
+            data-delay="1800"
+            src="/img/svg/doodle6.svg"
+            className="h-15 position-absolute d-none d-lg-block"
+            style={{ top: "-40%", left: "-5%" }}
+            alt=""
+          />
+
+          
+          <h3 className="display-3 mb-8 px-xl-6">
+          Our Training Program
+          </h3>
+        </div>
+      </div>
+      <div className="row">
+           <div className="mx-auto col-12 col-md-5">
             <BlogCard2
               link="#"
               category="30–45 min demo session"
-              title="TaiChi For Professionals"
+              title="Structured Yang Style Tai Chi Training"
               description="Can be done in formal clothes, no equipment"
               cardTop={
                 <figure className=" card-img-top overlay overlay-1 hover-scale">
@@ -80,7 +105,44 @@ export default function Page() {
                 </figure>
               }
             />
+            
             </div>
+            <div className="mx-auto col-12 col-md-5">
+            <BlogCard2
+              link="#"
+              category="30–45 min demo session"
+              title="Free Demo Session"
+              description="The forst demo session if FREE for all interested participants!"
+              cardTop={
+                <figure className=" card-img-top overlay overlay-1 hover-scale">
+                  <a className="link-dark" href="#">
+                    <Image width={960} height={600} src="/img/martialarts/card-banner.jpg" alt="blog" className="h-auto w-100" />
+                    <span className="bg" />
+                  </a>
+
+                  <figcaption className="pt-10 text-start">
+                  <h2>Ideal for groups of 10 or more participants</h2>
+                      <p>Suitable for All Ages & Fitness Levels</p>
+                      <h2>Session includes:</h2>
+                      <ul>
+                        <li>Introduction to TaiChi – What is TaiChi?</li>
+                        <li>Overview of TaiChi Forms</li>
+                        <li>Live Demonstration of TaiChi Forms</li>
+
+                        <li>
+                          The first demo session is FREE for all interested
+                          participants!{" "}
+                        </li>
+                      </ul>{" "}
+                  </figcaption>
+                </figure>
+              }
+            />
+            
+            </div>
+      </div>
+           
+            
 
 
 

@@ -19,19 +19,17 @@ export default function About9() {
         </div>
 
         <div className="text-center col-lg-5 mt-lg-n10 text-lg-start">
-        <h2 className="mb-3 display-4">Welcome to Authentic Yang Style Tai Chi India</h2>
+        <h2 className="mb-3 display-4">TaiChi Federation of India</h2>
         <p className="lead fs-lg">
-          Balance Your Body. Calm Your Mind. Energize Your Life.
+          Preserving Tradition • Building Health • Cultivating Balance
 
         </p>
         <p className="mb-6">
-          At <span className="underline">Authentic Yang Style Tai Chi India</span>,
-          we offer a peaceful and friendly space to learn the ancient art of TaiChi — a graceful form of exercise known for promoting balance,
-          flexibility, inner strength, and peace of mind.
+          <span className="underline">The TaiChi Federation of India (TFI)</span> is dedicated to the authentic teaching and promotion of traditional Yang Style Tai Chi (Taijiquan) in India. Rooted in classical lineage and disciplined practice, TFI offers structured training that nurtures physical health, mental clarity, and inner balance.
+        
         </p>
         <p className="mb-6">
-          Whether you're a beginner looking to start your journey, or an experienced practitioner
-          seeking deeper mastery, our classes are designed to meet you where you are.
+          Tai Chi is more than slow movement—it is a profound internal martial art that harmonizes  <span className="underline">body, breath, and mind</span>. At TFI, we guide practitioners to experience Tai Chi as a lifelong path of wellness and self-cultivation.
         </p>
 
           

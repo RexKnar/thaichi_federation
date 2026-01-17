@@ -42,7 +42,7 @@ export default function Process19() {
 
           
           <h3 className="display-3 mb-8 px-xl-6">
-          Our Programs
+          Training & Programs
           </h3>
         </div>
       </div>
