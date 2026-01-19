@@ -39,17 +39,19 @@ export default function ContactForm() {
 
         <div className="col-md-6">
           <div className="form-select-wrapper mb-4">
-            <select className="form-select" id="form-select" name="department" required>
-              <option disabled value="">
-                Select a department
-              </option>
-              <option value="Sales">Sales</option>
-              <option value="Marketing">Marketing</option>
-              <option value="Customer Support">Customer Support</option>
+            <select className="form-select" id="form-select" name="option" required>
+              <option disabled value="">Select a option</option>
+               <option>Course details and fee structure </option>
+<option>Enrollment and registration support</option>
+<option>Beginner, intermediate, and advanced training</option>
+<option>Instructor and master training programs</option>
+<option>Seminars, workshops, and retreats</option>
+<option>Private and customized Tai Chi classes</option>
+<option>Federation membership and certification</option>
             </select>
 
             <div className="valid-feedback"> Looks good! </div>
-            <div className="invalid-feedback"> Please select a department. </div>
+            <div className="invalid-feedback"> Please select a option. </div>
           </div>
         </div>
 

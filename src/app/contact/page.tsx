@@ -6,6 +6,7 @@ import { Footer10, Footer8 } from "components/blocks/footer";
 import ContactForm from "components/common/ContactForm";
 import Breadcrumb from "components/reuseable/Breadcrumb";
 import NextLink from "components/reuseable/links/NextLink";
+import Email from "icons/lineal/Email";
 
 // CUSTOM DATA
 const breadcrumb = [
@@ -34,57 +35,87 @@ export default function Page() {
                 </div>
             </div>
         </section>
+          <div className="wrapper bg-light">
+                  <div className="container pb-14 pb-md-160">
+                    {/* ========== newsletter section ========== */}
+                    <div className="row">
+                      <div className="col mt-n19 mb-16">
+                        <div className="card shadow-lg">
+                          <div className="row gx-0">
+                                <div
+                                  className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start d-none d-md-block"
+                                  style={{ backgroundImage: "url(/img/martialarts/about.jpg)" }}
+                                />
+                          
+                                <div className="col-lg-6">
+                                  <div className="p-10 p-md-11 p-lg-13">
+                                    <h2 className="display-4 mb-3">Contact Us!</h2>
+                          
+                                    <p className="lead fs-lg">
+                                      Get in Touch with TaiChi Federation of India
+                                    </p>
+                          
+                                    <p>
+                                      We welcome your interest in traditional Yang Style Tai Chi training. Whether you are a beginner, an
+experienced practitioner, or someone seeking instructor or master-level guidance, the TaiChi
+Federation of India (TFI) is here to support your journey.
 
-        <div className="wrapper bg-light angled upper-end">
-          <div className="container py-14 py-md-16">
-            {/* ========== contact info section ========== */}
-            <div className="mb-16 row gy-10 gx-lg-8 gx-xl-12 align-items-center">
-              <div className="col-lg-7 position-relative">
-                <div className="shape bg-dot primary rellax w-18 h-18" style={{ top: 0, left: "-1.4rem", zIndex: 0 }} />
-
-                <Tiles3 />
-              </div>
-
-              <div className="col-lg-5">
-                <h2 className="mb-8 display-4">Convinced yet? Let's make something great together.</h2>
-                <div className="flex-row d-flex">
-                  <div>
-                    <div className="icon text-primary fs-28 me-6 mt-n1">
-                      <i className="uil uil-location-pin-alt" />
+                                    </p>
+                                    <p>Feel free to contact us for course details, registrations, seminars, certifications, or general enquiries.</p>
+                          
+                                  
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-
-                  <div>
-                    <h5 className="mb-1">Address</h5>
-                    <address>
+        
+                    <div className="row">
+                      <div className="col-xl-10 mx-auto">
+                        <div className="row gy-10 gx-lg-8 gx-xl-12">
+                          {/* ========== contact form section ========== */}
+                         
+                          {/* ========== contact info section ========== */}
+                          <div className="row">
+                            <div className="d-flex flex-row col-12 col-md-4">
+                              <div>
+                                <div className="icon text-primary fs-28 me-4 mt-n1">
+                                  <i className="uil uil-location-pin-alt" />
+                                </div>
+                              </div>
+                              <div>
+                                <h5 className="mb-1">Address</h5>
+                                <address>
                     O-Block, 2nd Floor, ApptaMarket, <br className="d-none d-md-block" />
-                    Near Ozhuginasery Bridge, Therekalputhur,<br className="d-none d-md-block" />
-                    Thirupathisaram(P.0), Kanyakumari District-629901.
+                    Nagercoil, Kanyakumari District,<br className="d-none d-md-block" />
+                    Tamil Nadu, India.
                     </address>
-                  </div>
-                </div>
-
-                <div className="flex-row d-flex">
-                  <div>
-                    <div className="icon text-primary fs-28 me-6 mt-n1">
-                      <i className="uil uil-phone-volume" />
-                    </div>
-                  </div>
-
-                  <div>
+                              </div>
+                            </div>
+        
+                            <div className="d-flex flex-row col-12 col-md-4">
+                              <div>
+                                <div className="icon text-primary fs-28 me-4 mt-n1">
+                                  <i className="uil uil-phone-volume" />
+                                </div>
+                              </div>
+                               <div>
                     <h5 className="mb-1">Phone</h5>
-                    <p>+91 9442079982 , +91 9791825549 , +91 9789894184.</p>
+                    <p><b>B. Shanmugam: </b>+91 9442079982 ,
+                    <br/><b>S. Karthikheyan: </b> +91 9791825549 ,<br/>
+                    <b>R. Nagarajan:</b> +91 9789894184.</p>
+                    
                   </div>
-                </div>
-
-                <div className="flex-row d-flex">
-                  <div>
-                    <div className="icon text-primary fs-28 me-6 mt-n1">
-                      <i className="uil uil-envelope" />
-                    </div>
-                  </div>
-
-                  <div>
+                            </div>
+        
+                            <div className="d-flex flex-row col-12 col-md-4">
+                              <div>
+                                <div className="icon text-primary fs-28 me-4 mt-n1">
+                                  <i className="uil uil-envelope" />
+                                </div>
+                              </div>
+                              <div>
                     <h5 className="mb-1">E-mail</h5>
                     <p className="mb-0">
                       <a href="mailto:shanmugam.taichi@gmail.com" className="link-body">
@@ -92,23 +123,61 @@ export default function Page() {
                       </a>
                     </p>
                   </div>
+                            </div>
+                            <p className="text-center">(Please call during reasonable hours. WhatsApp enquiries are also welcome.)</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <section className="wrapper bg-light ">
+      <div className="container card bg-soft-primary mb-8">
+          <div className="card-body p-12">
+            <div className="row gx-md-8 gx-xl-12 gy-10">
+              <div className="col-lg-6">
+                <h2 className="display-4 mb-3 pe-lg-10">Class Timing</h2>
+                <p><b>Regular Classes (Daily):</b></p>
+                <ul> 
+<li> Morning: 7:00 AM – 10:00 AM</li>
+<li> Evening: 5:00 PM – 9:00 PM</li></ul>
+<p><b>Private Classes:</b><br/>
+One-on-one and small group private training sessions are available upon request.</p>
+<h2>What You Can Contact Us For</h2>
+<ul>
+  <li>Course details and fee structure </li>
+<li>Enrollment and registration support</li>
+<li>Beginner, intermediate, and advanced training</li>
+<li>Instructor and master training programs</li>
+<li>Seminars, workshops, and retreats</li>
+<li>Private and customized Tai Chi classes</li>
+<li>Federation membership and certification</li>
+</ul>
+                
               </div>
-            </div>
 
-            {/* ========== contact form section ========== */}
-            <div className="row">
-              <div className="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-                <h2 className="mb-3 text-center display-4">Drop Us a Line</h2>
-                <p className="mb-10 text-center lead">
-                  Reach out to us from our contact form and we will get back to you shortly.
-                </p>
-
-                <ContactForm />
+              <div className="col-lg-6">
+                 <ContactForm />
               </div>
             </div>
           </div>
         </div>
+                </section>
+        
+                {/* ========== map section ========== */}
+                <section className="wrapper bg-light">
+                  <div className="map">
+                    <iframe
+                      width="100%"
+                      height={500}
+                      allowFullScreen
+                      style={{ border: 0 }}
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25387.23478654725!2d-122.06115399490332!3d37.309248660190086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb4571bd377ab%3A0x394d3fe1a3e178b4!2sCupertino%2C%20CA%2C%20USA!5e0!3m2!1sen!2str!4v1645437305701!5m2!1sen!2str"
+                    />
+                  </div>
+                </section>
+
+      
       </main>
 
       {/* ========== footer section ========== */}

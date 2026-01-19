@@ -12,21 +12,18 @@ export default function Hero15() {
         <Carousel slidesPerView={1} autoplay={{ delay: 7000, disableOnInteraction: false }}>
           <div
             className="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-            style={{ backgroundImage: 'url("/img/martialarts/certificate.jpg")' }}>
+            style={{ backgroundImage: 'url("/img/martialarts/selvaraj-master.png")', backgroundPositionY: '0px' }}>
             <div className="container h-100">
               <div className="row h-100">
                 <div className="col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
                   <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                    We bring solutions to make life easier.
+                    Move Gently. Live Strong.
                   </h2>
 
                   <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                    We are a creative company that focuses on long term relationships with customers.
+                    Traditional Tai Chi for Health, Balance &amp; Inner Calm
                   </p>
 
-                  <div className="animate__animated animate__slideInUp animate__delay-3s">
-                    <NextLink title="Read More" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -34,41 +31,38 @@ export default function Hero15() {
 
           <div
             className="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-            style={{ backgroundImage: 'url("/img/martialarts/banner.jpeg")' }}>
+            style={{ backgroundImage: 'url("/img/martialarts/training-2.jpg")' }}>
             <div className="container h-100">
               <div className="row h-100">
                 <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                    We are trusted by over a million customers.
+                    Learn Authentic Yang Style Tai Chi
                   </h2>
 
                   <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                    Here a few reasons why our customers choose us.
+                    Preserving Tradition for Modern Well-Being
                   </p>
 
-                
+
                 </div>
               </div>
             </div>
           </div>
-
           <div
             className="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-            style={{ backgroundImage: 'url("/img//martialarts/banner-1.jpeg")' }}>
+            style={{ backgroundImage: 'url("/img/martialarts/training-1.jpg")' }}>
             <div className="container h-100">
               <div className="row h-100">
-                <div className="col-md-10 offset-md-1 col-lg-7 offset-lg-5 col-xl-6 offset-xl-6 col-xxl-5 offset-xxl-6 text-center text-lg-start justify-content-center align-self-center align-items-start">
+                <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
                   <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
-                    Just sit and relax.
+                    Begin Your Tai Chi Journey Today
                   </h2>
 
                   <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
-                    We make sure your spending is stress free so that you can have the perfect control.
+                    Experience Health, Harmony &amp; Balance
                   </p>
 
-                  <div className="animate__animated animate__slideInUp animate__delay-3s">
-                    <NextLink title="Contact Us" href="#" className="btn btn-lg btn-outline-white rounded-pill" />
-                  </div>
+
                 </div>
               </div>
             </div>

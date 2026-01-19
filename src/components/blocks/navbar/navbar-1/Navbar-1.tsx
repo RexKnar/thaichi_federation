@@ -81,14 +81,15 @@ export default function NavbarOne({
 
         <div className="offcanvas-body ms-lg-auto d-flex flex-column h-100">
           <ul className="navbar-nav">
-      
-              <ListItemLink  href="/" title="Home" linkClassName="nav-link " />
-              <ListItemLink  href="/about" title="About" linkClassName="nav-link " />
-              <ListItemLink  href="/gallery" title="Gallery" linkClassName="nav-link " />
-              <ListItemLink  href="/courses" title="Courses" linkClassName="nav-link " />
-              <ListItemLink  href="/contact" title="Contact" linkClassName="nav-link " />
-             
-           
+
+            <ListItemLink href="/" title="Home" linkClassName="nav-link " />
+            <ListItemLink href="/about" title="About" linkClassName="nav-link " />
+            <ListItemLink href="/yang-style-tai-chi" title="Yang Style Tai Chi" linkClassName="nav-link " />
+            <ListItemLink href="/gallery" title="Gallery" linkClassName="nav-link " />
+            <ListItemLink href="/course" title="Courses" linkClassName="nav-link " />
+            <ListItemLink href="/contact" title="Contact" linkClassName="nav-link " />
+
+
           </ul>
 
           {/* ============= show contact info in the small device sidebar ============= */}
@@ -133,7 +134,7 @@ export default function NavbarOne({
         )}
       </nav>
 
- 
+
     </Fragment>
   );
 }

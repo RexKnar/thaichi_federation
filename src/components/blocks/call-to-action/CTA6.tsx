@@ -6,14 +6,21 @@ export default function CTA6() {
       <div className="container py-md-16 py-lg-18">
         <div className="row">
           <div className="col-xl-11 col-xxl-9 mx-auto">
-            <h3 className="display-4 mb-8 px-lg-8">
-              We are trusted by over 5000+ clients. Join them now and grow your business.
+            <h3 className="display-4  px-lg-8">
+              Join the Tai Chi Movement
             </h3>
+            <p>
+              Whether you are a beginner, wellness enthusiast, martial artist, or instructor, the TaiChi Federation
+of India welcomes you to begin or deepen your Tai Chi journey.
+            </p>
+            <h4>
+              Experience balance. Cultivate strength. Discover inner harmony.
+            </h4>
           </div>
 
           <div className="d-flex justify-content-center">
             <span>
-              <a className="btn btn-primary rounded-pill">Get Started</a>
+              <a className="btn btn-primary rounded-pill">Join Now!</a>
             </span>
           </div>
         </div>

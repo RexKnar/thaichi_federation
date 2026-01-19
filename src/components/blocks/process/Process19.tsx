@@ -52,7 +52,7 @@ export default function Process19() {
           <div className="row gy-10 gy-lg-0 text-center d-flex align-items-center">
             <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
               <figure className="mx-auto">
-                <img src="/img/png/martialarts-02.png" srcSet="/img/png/martialarts-02.png" alt="" />
+                <img src="/img/martialarts/master-solo.png" srcSet="/img/martialarts/master-solo.png" alt="" />
               </figure>
             </div>
 

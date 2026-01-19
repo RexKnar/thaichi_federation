@@ -30,10 +30,12 @@ export default function AboutLayout({ children }: PropsWithChildren) {
       </header>
 
       <main className="content-wrapper">{children}</main>
+
+
+      {/* ========== footer section ========== */}
       <section>
         <CTA6 />
       </section>
-      {/* ========== footer section ========== */}
       <Footer10 />
     </Fragment>
   );

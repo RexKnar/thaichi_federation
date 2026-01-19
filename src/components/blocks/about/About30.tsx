@@ -31,10 +31,10 @@ export default function About30() {
         </div>
       </div>
 
-      <div className="row d-flex align-items-start mb-19">
+      <div className="row d-flex align-items-start ">
         <div className="col-lg-6 position-lg-sticky" style={{ top: "8rem" }}>
           <figure>
-            <img src="/img/martialarts/training-1.jpg" srcSet="/img/martialarts/training-1.jpg" alt=""  className="rounded-full"/>
+            <img src="/img/martialarts/master-sunset-solo.png" srcSet="/img/martialarts/master-sunset-solo.png" alt=""  className="rounded-full"/>
           </figure>
         </div>
 
