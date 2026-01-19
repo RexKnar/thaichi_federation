@@ -15,24 +15,24 @@ export default function Portfolio() {
 
   const filterList = [
     { id: 1, title: "All", value: "*" },
-    { id: 2, title: "Practice", value: ".foods" },
-    { id: 3, title: "Match", value: ".drinks" },
+    { id: 2, title: "Practice", value: ".practice" },
+    { id: 3, title: "Match", value: ".matche" },
     { id: 4, title: "Events", value: ".events" },
   ];
   const portfolioList = [
-    { id: 1, image: '1', title: 'Fringilla Nullam', category: 'drinks events' },
-    { id: 2, image: '2', title: 'Ridiculus Parturient', category: 'events' },
-    { id: 3, image: '3', title: 'Ornare Ipsum', category: 'pastries events' },
-    { id: 4, image: '4', title: 'Nullam Mollis', category: 'events' },
-    { id: 5, image: '5', title: 'Euismod Risus', category: 'pastries events' },
-    { id: 6, image: '6', title: 'Ridiculus Tristique', category: 'foods' },
-    { id: 7, image: '7', title: 'Sollicitudin Pharetra', category: 'foods drinks' },
-    { id: 8, image: '8', title: 'Tristique Venenatis', category: 'events' },
-    { id: 9, image: '9', title: 'Cursus Fusce', category: 'events' },
-    { id: 10, image: '10', title: 'Consectetur Malesuada', category: 'foods' },
-    { id: 11, image: '11', title: 'Ultricies Aenean', category: 'drinks' },
-    { id: 12, image: '12', title: 'Pellentesque Commodo', category: 'foods' },
-    { id: 13, image: '13', title: 'Ultricies Aenean', category: 'drinks' }
+    { id: 1, image: '1', title: 'TaiChi Federation Of India', category: 'matche events' },
+    { id: 2, image: '2', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 3, image: '3', title: 'TaiChi Federation Of India', category: 'pastries events' },
+    { id: 4, image: '4', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 5, image: '5', title: 'TaiChi Federation Of India', category: 'pastries events' },
+    { id: 6, image: '6', title: 'TaiChi Federation Of India', category: 'practice' },
+    { id: 7, image: '7', title: 'TaiChi Federation Of India', category: 'practice matche' },
+    { id: 8, image: '8', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 9, image: '9', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 10, image: '10', title: 'TaiChi Federation Of India', category: 'practice' },
+    { id: 11, image: '11', title: 'TaiChi Federation Of India', category: 'matche' },
+    { id: 12, image: '12', title: 'TaiChi Federation Of India', category: 'practice' },
+    { id: 13, image: '13', title: 'TaiChi Federation Of India', category: 'matche' }
   ];
 
 
@@ -41,7 +41,7 @@ export default function Portfolio() {
     <section id="portfolio">
       <div className="wrapper bg-gray">
         <div className="container text-center py-15 py-md-17">
-        
+
           {/* USED FOR IMAGE LIGHTBOX */}
           <LightBox />
 
