@@ -32,20 +32,29 @@ export default function Footer10() {
               <p className="mb-5 lead">
                 Promoting health, harmony and peace through authentic TaiChi practice since 2005.
               </p>
-              <NextLink title="Join Us" href="#" className="btn btn-white rounded-pill" />
+              <NextLink title="Join Us" href="/contact" className="btn btn-white rounded-pill" />
             </div>
           </div>
 
-     
+
 
           <div className="col-md-3 col-lg-3">{widget(learnMore, "Learn More")}</div>
 
           <div className="col-md-3 col-lg-3">
             <div className="widget">
               <h4 className="mb-3 text-white widget-title">Get in Touch</h4>
-              <address>Moonshine St. 14/05 Light City, London, United Kingdom</address>
-              <a href="mailto:first.last@email.com">info@email.com</a>
-              <br /> 00 (123) 456 78 90
+              <address>
+                O-Block, 2nd Floor, ApptaMarket, <br className="d-none d-md-block" />
+                Nagercoil, Kanyakumari District,<br className="d-none d-md-block" />
+                Tamil Nadu, India.
+              </address>
+
+              <br /> <p><b>B. Shanmugam: </b>+91 9442079982 ,
+                <br /><b>S. Karthikheyan: </b> +91 9791825549 ,<br />
+                <b>R. Nagarajan:</b> +91 9789894184. <br />
+                <br />
+                <a href="mailto:shanmugam.taichi@gmail.com">shanmugam.taichi@gmail.com</a></p>
+
             </div>
           </div>
         </div>
