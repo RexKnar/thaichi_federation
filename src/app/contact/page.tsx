@@ -130,7 +130,7 @@ export default function Page() {
         </div>
         <section className="wrapper bg-light ">
           <div className="container card bg-soft-primary mb-8">
-            <div className="card-body p-12">
+            <div className="card-body p-lg-12">
               <div className="row gx-md-8 gx-xl-12 gy-10">
                 <div className="col-lg-6">
                   <h2 className="display-4 mb-3 pe-lg-10">Class Timing</h2>
