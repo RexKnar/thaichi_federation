@@ -11,7 +11,7 @@ export default function AboutHistory() {
           </div>
         </div>
 
-        <ul className="nav nav-tabs nav-tabs-bg d-flex justify-content-between nav-justified flex-lg-row flex-column">
+        {/* <ul className="nav nav-tabs nav-tabs-bg d-flex justify-content-between nav-justified flex-lg-row flex-column">
           <li className="nav-item">
             <a className="flex-row nav-link d-flex active" data-bs-toggle="tab" href="#tab2-1">
               <div>
@@ -34,18 +34,26 @@ export default function AboutHistory() {
               </div>
             </a>
           </li>
-        </ul>
+        </ul> */}
 
-        <div className="mt-6 mb-5 tab-content mt-lg-8">
-          <div className="tab-pane fade show active" id="tab2-1">
-            <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-              <div className="col-lg-6 order-lg-2">
-                <figure className="rounded">
-                  <img src="/img/martialarts/training-2.jpg" srcSet="/img/martialarts/master-sunset-solo.png " alt="" />
-                </figure>
-              </div>
+        <div className="mt-6 mb-5 tab-content1 mt-lg-8">
+
+          <div className="tab-pane1 fade1 show1 active1" id="tab2-11">
+
+            <div className="row gx-lg-8 gx-xl-12 gy-10 ">
+
+
 
               <div className="col-lg-6">
+                <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
+                  <div>
+                    <span className=" fs-30 d-block ">01</span>
+                  </div>
+                  <div>
+                    <h3 className="fs-40 d-block">History Of Taichi</h3>
+
+                  </div>
+                </a>
                 <h2 className="mb-3 ls-xs">13th century</h2>
                 <p>
                   In the 13th century, a profound question arose in the mind of the chief physician to the Chinese Emperor
@@ -71,39 +79,47 @@ export default function AboutHistory() {
                 </ul>
 
               </div>
-            </div>
-          </div>
-
-          <div className="tab-pane fade" id="tab2-2">
-            <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
-              <div className="col-lg-6 ">
-                <figure className="rounded">
-                  <img src="/img/martialarts/training-3.jpg" srcSet="/img/martialarts/training-3.jpg " alt="" />
-                </figure>
-              </div>
-
               <div className="col-lg-6">
-                <h2 className="mb-3 ls-xs">Yang Style Tai Chi </h2>
-                <p>
-                  Yang Style Tai Chi is the most widely practiced form of Tai Chi in the world today.
-                </p>
-                <p>It was founded in the mid-19th century by Yang Luchan (1799–1872), a legendary martial artist from Hebei Province, China. Yang Luchan originally learned Chen Style Tai Chi from the Chen family in Chenjiagou village.</p>
-                <p>
-                  Through years of mastery, refinement, and experience, Yang Luchan adapted the practice into a form that was:
-                </p> <ul>
-                  <li>Softer and more flowing</li>
-                  <li>Accessible to a wider population</li>
-                  <li>Yet fully effective as a martial art</li>
-                </ul>
-                <p> His extraordinary skill earned him the title:
-                  <br />
-                  <b>“Yang the Invincible”
-                  </b>
-                </p>
-                <p>Thus, Yang Style Tai Chi was born—preserving martial integrity while emphasizing grace, balance, and internal strength.</p>
+                <div className="tab-pane1 fade1" id="tab2-21">
+                  <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
+                    <div>
+                      <span className=" fs-30 d-block ">02</span>
+                    </div>
+                    <div>
+                      <h3 className="fs-40 d-block">History Of Yang Style </h3>
+
+                    </div>
+                  </a>
+                  <div className="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+
+
+                    <div className="col-lg-12">
+                      <h2 className="mb-3 ls-xs"> Tai Chi </h2>
+                      <p>
+                        Yang Style Tai Chi is the most widely practiced form of Tai Chi in the world today.
+                      </p>
+                      <p>It was founded in the mid-19th century by Yang Luchan (1799–1872), a legendary martial artist from Hebei Province, China. Yang Luchan originally learned Chen Style Tai Chi from the Chen family in Chenjiagou village.</p>
+                      <p>
+                        Through years of mastery, refinement, and experience, Yang Luchan adapted the practice into a form that was:
+                      </p> <ul>
+                        <li>Softer and more flowing</li>
+                        <li>Accessible to a wider population</li>
+                        <li>Yet fully effective as a martial art</li>
+                      </ul>
+                      <p> His extraordinary skill earned him the title:
+                        <br />
+                        <b>“Yang the Invincible”
+                        </b>
+                      </p>
+                      <p>Thus, Yang Style Tai Chi was born—preserving martial integrity while emphasizing grace, balance, and internal strength.</p>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
+
 
         </div>
       </div>
