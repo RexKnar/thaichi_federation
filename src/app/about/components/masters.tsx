@@ -4,37 +4,62 @@ import { aboutList2 } from "data/about";
 
 export default function Masters() {
     return (
-        <><div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-7 align-items-center">
-            <div className="col-md-8 col-lg-6 ">
-                <figure className="rounded">
-                    <img src="/img/martialarts/master-solo.png" srcSet="/img/martialarts/master-solo.png" alt="" />
-                </figure>
+        <>
+            <div className="row text-center mt-12">
+                <div className="col-md-10 col-lg-7 mx-auto position-relative">
+                    <img
+                        data-delay="1800"
+                        src="/img/svg/doodle5.svg"
+                        className="w-15 position-absolute d-none d-lg-block"
+                        style={{ bottom: "-60%", right: "10%" }}
+                        alt=""
+                    />
+
+                    <img
+                        data-delay="1800"
+                        src="/img/svg/doodle6.svg"
+                        className="h-15 position-absolute d-none d-lg-block"
+                        style={{ top: "-40%", left: "-5%" }}
+                        alt=""
+                    />
+
+
+                    <h3 className="display-3 mb-8 px-xl-6">
+                        Our Masters
+                    </h3>
+                </div>
             </div>
+            <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-7 align-items-center">
+                <div className="col-md-8 col-lg-6 ">
+                    <figure className="rounded">
+                        <img src="/img/martialarts/master-solo.png" srcSet="/img/martialarts/master-solo.png" alt="" />
+                    </figure>
+                </div>
 
-            <div className="col-lg-6">
-                <h3 className="display-4 mb-5">Master B. Shanmugam</h3>
-                <p className="mb-6">
-                    The Tai Chi Federation of India is guided by Master B. Shanmugam, a senior practitioner and teacher of traditional Yang Style Tai Chi with over 25 years of dedicated experience in practice, training, and instruction.
-                </p>
-                <p>
-                    Master B. Shanmugam was trained under Late Master Michael A. Selvaraj, a highly respected martial artist and Tai Chi master who played a pivotal role in introducing and spreading authentic Yang Style Tai Chi in India. Carrying forward this esteemed lineage, Master B. Shanmugam remains committed to preserving the purity, discipline, and depth of classical Tai Chi.
-                </p>
-                <p>
-                    Under his guidance, students are trained through a systematic and traditional approach that emphasizes:</p>
-                <ul>
-                    <li>Correct posture, alignment, and structural integrity</li>
-                    <li>Harmony of body, breath, and intention</li>
-                    <li>Development of internal energy (Qi)</li>
-                    <li>Classical Yang Style forms, including the 85-form</li>
-                    <li>Ethical teaching, discipline, and lifelong practice</li>
-                </ul>
+                <div className="col-lg-6">
+                    <h3 className="display-4 mb-5">Master B. Shanmugam</h3>
+                    <p className="mb-6">
+                        The Tai Chi Federation of India is guided by Master B. Shanmugam, a senior practitioner and teacher of traditional Yang Style Tai Chi with over 25 years of dedicated experience in practice, training, and instruction.
+                    </p>
+                    <p>
+                        Master B. Shanmugam was trained under Late Master Michael A. Selvaraj, a highly respected martial artist and Tai Chi master who played a pivotal role in introducing and spreading authentic Yang Style Tai Chi in India. Carrying forward this esteemed lineage, Master B. Shanmugam remains committed to preserving the purity, discipline, and depth of classical Tai Chi.
+                    </p>
+                    <p>
+                        Under his guidance, students are trained through a systematic and traditional approach that emphasizes:</p>
+                    <ul>
+                        <li>Correct posture, alignment, and structural integrity</li>
+                        <li>Harmony of body, breath, and intention</li>
+                        <li>Development of internal energy (Qi)</li>
+                        <li>Classical Yang Style forms, including the 85-form</li>
+                        <li>Ethical teaching, discipline, and lifelong practice</li>
+                    </ul>
 
 
-                <p>
-                    Students guided by Master B. Shanmugam develop not only physical balance and strength, but also mental clarity, inner calm, and a deeper understanding of Tai Chi as a complete internal martial art.
-                </p>
+                    <p>
+                        Students guided by Master B. Shanmugam develop not only physical balance and strength, but also mental clarity, inner calm, and a deeper understanding of Tai Chi as a complete internal martial art.
+                    </p>
+                </div>
             </div>
-        </div>
             <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-7 align-items-center">
                 <div className="col-md-8 col-lg-6 order-lg-2 order-1">
                     <figure className="rounded w-30 h-50">
