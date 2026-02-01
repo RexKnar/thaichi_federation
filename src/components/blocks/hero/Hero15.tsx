@@ -31,17 +31,17 @@ export default function Hero15() {
 
           <div
             className="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
-            style={{ backgroundImage: 'url("/img/martialarts/training-2.jpg")' }}>
+            style={{ backgroundImage: 'url("/img/martialarts/TFI_Banner.jpeg")' }}>
             <div className="container h-100">
               <div className="row h-100">
                 <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center">
-                  <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
+                  {/* <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
                     Learn Authentic Yang Style Tai Chi
                   </h2>
 
                   <p className="lead fs-23 lh-sm mb-7 text-white animate__animated animate__slideInRight animate__delay-2s">
                     Preserving Tradition for Modern Well-Being
-                  </p>
+                  </p> */}
 
 
                 </div>

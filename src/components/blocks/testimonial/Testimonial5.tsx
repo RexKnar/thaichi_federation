@@ -11,10 +11,10 @@ export default function Testimonial5() {
       review: `The TaiChi Federation of India is led by Master B. Shanmugam, a senior Yang Style Tai Chi practitioner with over 25 years of experience. Trained under Late Master Micheal A. Selvaraj, he preserves and transmits authentic Tai Chi principles through systematic and traditional teaching.`
     },
   ];
-  
+
   return (
     <section className="wrapper bg-soft-aqua">
-      <div className="container pt-16 pb-14 pb-md-0">
+      <div className="container py-5 pb-md-0">
         <div className="row gx-lg-8 gx-xl-0 align-items-center">
           <div className="col-md-5 col-lg-5 col-xl-4 offset-xl-1 d-none d-md-flex position-relative align-self-end">
             <div

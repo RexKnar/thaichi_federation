@@ -24,7 +24,7 @@ export default function Footer10() {
 
   return (
     <footer className="bg-dark text-inverse">
-      <div className="container pt-20 pt-lg-21 pb-7">
+      <div className="container pt-10 pt-lg-11 pb-7">
         <div className="row gy-6 gy-lg-0">
           <div className="col-lg-6">
             <div className="widget">

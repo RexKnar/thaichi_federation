@@ -73,7 +73,7 @@ export default async function CourseDetails({ params }: Props) {
 
                                         <h3 className="h3 mb-3 mt-9">Beginner Course</h3>
                                         <p>
-                                            <b>Duration:</b> 3 to 6 Months<br />
+                                            <b>Duration:</b>  6 Months<br />
                                             <b>Course Fee:</b> ₹6,000 INR <br />
                                             <b>Ideal for:</b> Beginners, wellness seekers, seniors, and those new to Tai Chi<br />
                                             The Beginner Course focuses on building a strong foundation through correct posture, balance, and
@@ -141,7 +141,7 @@ export default async function CourseDetails({ params }: Props) {
                                                     <tbody>
                                                         <tr>
                                                             <td scope="row"> Beginner Course</td>
-                                                            <td scope="row">3 to 6 Months</td>
+                                                            <td scope="row">6 Months</td>
                                                             <td scope="row">13 Health Exercises, 8 Form, 13 Form</td>
                                                             <td scope="row">₹6,000 INR</td>
 

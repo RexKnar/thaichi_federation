@@ -4,10 +4,10 @@ import { Fragment, PropsWithChildren } from "react";
 import { usePathname } from "next/navigation";
 import clsx from "clsx";
 // GLOBAL CUSTOM COMPONENTS
-import { Footer10 } from "components/blocks/footer";
 import Navbar from "components/blocks/navbar/navbar-1";
 import NextLink from "components/reuseable/links/NextLink";
 import { CTA6 } from "components/blocks/call-to-action";
+import Footer from "app/components/Footer";
 
 export default function AboutLayout({ children }: PropsWithChildren) {
   const pathname = usePathname();
@@ -34,7 +34,7 @@ export default function AboutLayout({ children }: PropsWithChildren) {
         <CTA6 />
       </section>
       {/* ========== footer section ========== */}
-      <Footer10 />
+      <Footer />
     </Fragment>
   );
 }

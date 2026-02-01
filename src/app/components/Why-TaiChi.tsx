@@ -9,21 +9,8 @@ export default function WhyTaiChi() {
         <Fragment>
             <div className="text-center row">
                 <div className="mx-auto col-md-11 col-lg-9 col-xl-8 col-xxl-7 position-relative">
-                    <img
-                        src="/img/svg/doodle3.svg"
-                        className="h-11 position-absolute d-none d-lg-block"
-                        style={{ top: "-20%", right: "-12%" }}
-                        alt=""
-                    />
 
-                    <img
-                        src="/img/svg/doodle9.svg"
-                        className="h-17 position-absolute d-none d-lg-block"
-                        style={{ bottom: "5%", left: "-17%" }}
-                        alt=""
-                    />
 
-                    <h2 className="mb-3 text-center fs-16 text-uppercase text-muted">Why Practice TaiChi?</h2>
 
                     <h3 className="mb-12 text-center display-3">
                         Here are a few reasons why you should <span className="text-primary">Practice TaiChi.</span>
@@ -32,16 +19,11 @@ export default function WhyTaiChi() {
             </div>
 
             <div className="row d-flex align-items-start ">
-                {/* <div className="col-lg-6 position-lg-sticky" style={{ top: "8rem" }}>
-                    <figure>
-                        <img src="/img/martialarts/master-sunset-solo.png" srcSet="/img/martialarts/master-sunset-solo.png" alt="" className="rounded-full" />
-                    </figure>
-                </div> */}
 
                 <div className="col-12 ms-auto">
                     <div className="row g-3 justify-content-center">
                         {whyTaiChi.map(({ Icon, id, title, description, color }) => (
-                            <div className="col-12 col-md-6 col-lg-4 mb-8 px-5" key={id}>
+                            <div className="col-12 col-md-6 col-lg-6 mb-8 px-5 d-flex justify-content-center align-items-center" key={id}>
                                 <div>
                                     <div className={`svg-bg svg-bg-sm bg-${color} rounded-xl me-5`}>
                                         <Icon className="text-white icon-svg-xs" />

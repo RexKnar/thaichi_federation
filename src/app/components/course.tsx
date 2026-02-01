@@ -26,21 +26,6 @@ export default function HomeCourse() {
         <Fragment>
             <div className="row text-center">
                 <div className="col-md-10 col-lg-7 mx-auto position-relative">
-                    <img
-                        data-delay="1800"
-                        src="/img/svg/doodle5.svg"
-                        className="w-15 position-absolute d-none d-lg-block"
-                        style={{ bottom: "-60%", right: "10%" }}
-                        alt=""
-                    />
-
-                    <img
-                        data-delay="1800"
-                        src="/img/svg/doodle6.svg"
-                        className="h-15 position-absolute d-none d-lg-block"
-                        style={{ top: "-40%", left: "-5%" }}
-                        alt=""
-                    />
 
 
                     <h3 className="display-3 mb-8 px-xl-6">
@@ -49,11 +34,10 @@ export default function HomeCourse() {
                 </div>
             </div>
 
-            <div className="row ">
+            {/* <div className="row ">
                 <div className="col-xxl-11 mx-auto">
                     <div className="row gy-10 gy-lg-0 text-center d-flex align-items-center">
                         <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
-                            {/* <div className="mx-auto col-12 col-md-5"> */}
                             <BlogCard2
                                 link="/course"
                                 category="30–45 min demo session"
@@ -62,7 +46,139 @@ export default function HomeCourse() {
                                 cardTop={
                                     <figure className=" card-img-top overlay overlay-1 hover-scale">
                                         <a className="link-dark" href="/course">
-                                            <Image width={960} height={600} src="/img/martialarts/training-1.jpg" alt="blog" className="h-auto w-100" />
+                                            <Image width={960} height={600} src="/img/martialarts/Taichi_Classes.JPG" alt="blog" className="h-auto w-100" />
+                                            <span className="bg" />
+                                        </a>
+
+                                        <figcaption className="pt-10 text-start">
+                                            <h2>Ideal for groups of 10 or more participants</h2>
+                                            <p>Suitable for All Ages & Fitness Levels</p>
+                                            <h2>Session includes:</h2>
+                                            <ul>
+                                                <li>Introduction to TaiChi – What is TaiChi?</li>
+                                                <li>Overview of TaiChi Forms</li>
+                                                <li>Live Demonstration of TaiChi Forms</li>
+
+                                                <li>
+                                                    The first demo session is FREE for all interested
+                                                    participants!{" "}
+                                                </li>
+                                            </ul>{" "}
+                                        </figcaption>
+                                    </figure>
+                                }
+                            />
+
+                          
+                        </div>
+
+                        <div className="w-100 d-lg-none" />
+
+                        <div className="col-md-6 col-lg-4 order-lg-first">
+                            <Item no="01" index={0} title="Download Application" className="mb-8" />
+                            <Item no="02" index={1} title="Quick Registration" />
+                        </div>
+
+                        <div className="col-md-6 col-lg-4">
+                            <Item no="03" index={2} title="Track Your Spending" className="mb-8" />
+                            <Item no="04" index={3} title="Have Total Control" />
+                        </div>
+                    </div>
+                </div>
+            </div> */}
+            <div className="row">
+            <div className="col-xxl-11 mx-auto">
+                    <div className="row gy-10 gy-lg-0 text-center d-flex align-items-center">
+                        <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
+                            <BlogCard2
+                                link="/course"
+                                category=""
+                                title="Regular Tai Chi Classes"
+                                description="Easy-to-learn classes that help improve health, flexibility, balance, and mental calm."
+                                cardTop={
+                                    <figure className=" card-img-top overlay overlay-1 hover-scale">
+                                        <a className="link-dark" href="/course">
+                                            <Image width={960} height={600} src="/img/martialarts/Training5.jpg" alt="blog" className="h-auto w-100" />
+                                            <span className="bg" />
+                                        </a>
+
+                                    </figure>
+                                }
+                            />
+
+                   
+                        </div>
+                        <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
+                            <BlogCard2
+                                link="/course"
+                                category=""
+                                title="Advanced Master Training Courses"
+                                description="Higher-level training for students who wish to deepen their Tai Chi practice and skills."
+                                cardTop={
+                                    <figure className=" card-img-top overlay overlay-1 hover-scale">
+                                        <a className="link-dark" href="/course">
+                                            <Image width={960} height={600} src="/img/martialarts/Image_Wed2.JPG" alt="blog" className="h-auto w-100" />
+                                            <span className="bg" />
+                                        </a>
+
+                                        
+                                    </figure>
+                                }
+                            />
+
+                            {/* </div> */}
+                        </div>
+                        <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
+                            <BlogCard2
+                                link="/course"
+                                category=""
+                                title="Instructor Development Programs"
+                                description="Training for those who want to become confident and qualified Tai Chi teachers."
+                                cardTop={
+                                    <figure className=" card-img-top overlay overlay-1 hover-scale">
+                                        <a className="link-dark" href="/course">
+                                            <Image width={960} height={600} src="/img/martialarts/Master_Teach1.jpeg" alt="blog" className="h-auto w-100" />
+                                            <span className="bg" />
+                                        </a>
+
+                                    </figure>
+                                }
+                            />
+
+                            {/* </div> */}
+                        </div>
+                        
+                        </div>
+                        <div className="row mt-10 gy-10 gy-lg-0 text-center d-flex align-items-center">
+                        <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
+                            <BlogCard2
+                                link="/course"
+                                category=""
+                                title="Certification under Tai Chi Federation of India"
+                                description="Recognized certification that confirms proper training and learning standards."
+                                cardTop={
+                                    <figure className=" card-img-top overlay overlay-1 hover-scale">
+                                        <a className="link-dark" href="/course">
+                                            <Image width={960} height={600} src="/img/martialarts/Training6.jpg" alt="blog" className="h-auto w-100" />
+                                            <span className="bg" />
+                                        </a>
+
+                                    </figure>
+                                }
+                            />
+
+                            {/* </div> */}
+                        </div>
+                        <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
+                            <BlogCard2
+                                link="/course"
+                                category="30–45 min demo session"
+                                title="Free Demo Session"
+                                description="The forst demo session if FREE for all interested participants!"
+                                cardTop={
+                                    <figure className=" card-img-top overlay overlay-1 hover-scale">
+                                        <a className="link-dark" href="/course">
+                                            <Image width={960} height={600} src="/img/martialarts/Taichi_Classes.JPG" alt="blog" className="h-auto w-100" />
                                             <span className="bg" />
                                         </a>
 
@@ -88,19 +204,8 @@ export default function HomeCourse() {
                             {/* </div> */}
                         </div>
 
-                        <div className="w-100 d-lg-none" />
-
-                        <div className="col-md-6 col-lg-4 order-lg-first">
-                            <Item no="01" index={0} title="Download Application" className="mb-8" />
-                            <Item no="02" index={1} title="Quick Registration" />
                         </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <Item no="03" index={2} title="Track Your Spending" className="mb-8" />
-                            <Item no="04" index={3} title="Have Total Control" />
                         </div>
-                    </div>
-                </div>
             </div>
         </Fragment>
     );

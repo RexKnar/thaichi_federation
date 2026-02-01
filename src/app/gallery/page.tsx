@@ -3,7 +3,7 @@ import Navbar from "components/blocks/navbar/navbar-1";
 import { Fragment } from "react";
 import NextLink from "components/reuseable/links/NextLink";
 import Portfolio from "./components/portfolio";
-import { Footer10 } from "components/blocks/footer";
+import Footer from "app/components/Footer";
 
 export default function Page() {
     return (
@@ -33,7 +33,7 @@ export default function Page() {
             </main>
             {/* ========== footer section ========== */}
             <div className="mt-18">
-                <Footer10 />
+                <Footer />
             </div>
         </Fragment>
     );

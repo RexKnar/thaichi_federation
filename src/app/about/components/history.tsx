@@ -62,19 +62,7 @@ export default function History() {
     <Fragment>
       <div className="text-center row">
         <div className="mx-auto col-md-11 col-lg-9 col-xl-8 col-xxl-7 position-relative">
-          <img
-            src="/img/svg/doodle3.svg"
-            className="h-11 position-absolute d-none d-lg-block"
-            style={{ top: "-20%", right: "-12%" }}
-            alt=""
-          />
-
-          <img
-            src="/img/svg/doodle9.svg"
-            className="h-17 position-absolute d-none d-lg-block"
-            style={{ bottom: "5%", left: "-17%" }}
-            alt=""
-          />
+         \
 
           <h2 className="mb-3 text-center fs-16 text-uppercase text-muted">Generations</h2>
 

@@ -2,14 +2,7 @@ export default function AboutHistory() {
   return (
     <section className="wrapper bg-light">
       <div className="container px-10 py-10 py-md-10 px-md-12">
-        <div className="row">
-          <div className="mx-auto text-center col-md-10 offset-md-1 col-lg-8 offset-lg-2 position-relative">
-
-            <h3 className="mb-10 display-2 ls-xs px-xl-10 px-xxl-15">
-              <span className="underline-3 style-2 yellow">History</span>
-            </h3>
-          </div>
-        </div>
+        
 
         {/* <ul className="nav nav-tabs nav-tabs-bg d-flex justify-content-between nav-justified flex-lg-row flex-column">
           <li className="nav-item">
@@ -44,11 +37,9 @@ export default function AboutHistory() {
 
 
 
-              <div className="col-lg-6">
+              <div className="col-lg-12">
                 <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
-                  <div>
-                    <span className=" fs-30 d-block ">01</span>
-                  </div>
+               
                   <div>
                     <h3 className="fs-40 d-block">History Of Taichi</h3>
 
@@ -59,7 +50,7 @@ export default function AboutHistory() {
                   In the 13th century, a profound question arose in the mind of the chief physician to the Chinese Emperor
                 </p>
                 <p> Humans, though gifted with intellect, were physically fragile, prone to disease, and burdened by anxiety. Animals, on the other hand, lived naturally—strong, healthy, fearless, and capable of self-defense.</p>
-                <p>Moved deeply by this realization, the physician Chang San Feng resigned from his prestigious position and retreated into the forests. There, in solitude and deep observation, he studied the movements, instincts, and lifestyles of animals and birds.</p>
+                <p>Moved deeply by this realization, the physician <b>Chang San Feng</b> resigned from his prestigious position and retreated into the forests. There, in solitude and deep observation, he studied the movements, instincts, and lifestyles of animals and birds.</p>
                 <p>Through years of contemplation, Chang San Feng recognized a vital truth:
                 </p><ul>
                   <li>Animals live in harmony with nature</li>
@@ -68,8 +59,8 @@ export default function AboutHistory() {
                 </ul>
 
                 <p>Humans, however, weaken themselves through stress, lack of discipline, improper diet, and lifestyles disconnected from nature. These imbalances give rise to fear, illness, and inner conflict.</p>
-                <p>From this realization, Chang San Feng received what he believed to be a divine gift—a system designed to restore harmony between body, mind, and nature.</p>
-                <p>That gift was Tai Chi.
+                <p>From this realization, Chang San Feng received what he believed to be a <b>divine gift </b>—a system designed to restore harmony between body, mind, and nature.</p>
+                <p>That gift was <b>Tai Chi.</b>
                 </p><ul>
                   <li>Tai Chi was created as a practice to:</li>
                   <li>Strengthen the body</li>
@@ -79,14 +70,12 @@ export default function AboutHistory() {
                 </ul>
 
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-12">
                 <div className="tab-pane1 fade1" id="tab2-21">
                   <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
+                 
                     <div>
-                      <span className=" fs-30 d-block ">02</span>
-                    </div>
-                    <div>
-                      <h3 className="fs-40 d-block">History Of Yang Style </h3>
+                      <h3 className="fs-40 d-block">History Of Yang Style Tai Chi</h3>
 
                     </div>
                   </a>
@@ -94,11 +83,11 @@ export default function AboutHistory() {
 
 
                     <div className="col-lg-12">
-                      <h2 className="mb-3 ls-xs"> Tai Chi </h2>
+                    
                       <p>
                         Yang Style Tai Chi is the most widely practiced form of Tai Chi in the world today.
                       </p>
-                      <p>It was founded in the mid-19th century by Yang Luchan (1799–1872), a legendary martial artist from Hebei Province, China. Yang Luchan originally learned Chen Style Tai Chi from the Chen family in Chenjiagou village.</p>
+                      <p>It was founded in the <b>mid-19th century</b> by <b>Yang Luchan (1799–1872),</b> a legendary martial artist from Hebei Province, China. Yang Luchan originally learned <b>Chen Style Tai Chi</b> from the Chen family in Chenjiagou village.</p>
                       <p>
                         Through years of mastery, refinement, and experience, Yang Luchan adapted the practice into a form that was:
                       </p> <ul>
@@ -111,7 +100,7 @@ export default function AboutHistory() {
                         <b>“Yang the Invincible”
                         </b>
                       </p>
-                      <p>Thus, Yang Style Tai Chi was born—preserving martial integrity while emphasizing grace, balance, and internal strength.</p>
+                      <p>Thus,<b> Yang Style Tai Chi</b> was born—preserving martial integrity while emphasizing grace, balance, and internal strength.</p>
                     </div>
                   </div>
                 </div>

@@ -2,6 +2,8 @@
 import Process from "./components/process";
 import Masters from "./components/masters";
 import About from "./components/About";
+import Mission from "./components/Mission";
+import Wellness from "./components/Wellness";
 
 export default function Page() {
   return (
@@ -17,13 +19,23 @@ export default function Page() {
       </div>
     </section>
       <section className="wrapper bg-light">
-        <div className="container pt-12 pb-6 pt-md-18">
+        <div className="container py-6  ">
           <About />
         </div>
       </section>
-      <section className="wrapper bg-soft-primary">
-        <div className="container pt-16 pb-16 py-md-18">
+      <section className="wrapper bg-soft-primary ">
+      <div className="container py-6  ">
+        <Mission />
+        </div>
+      </section>
+      <section className="wrapper bg-light">
+        <div className="container pt-8 pb-8 py-md-8">
           <Process />
+        </div>
+      </section>
+      <section className="wrapper bg-soft-primary ">
+        <div className="container py-6">
+          <Wellness />
         </div>
       </section>
       <section className="wrapper bg-light">

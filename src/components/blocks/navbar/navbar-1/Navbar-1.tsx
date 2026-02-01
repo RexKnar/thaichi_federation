@@ -83,7 +83,7 @@ export default function NavbarOne({
           <ul className="navbar-nav">
 
             <ListItemLink href="/" title="Home" linkClassName="nav-link " />
-            <ListItemLink href="/about" title="About" linkClassName="nav-link " />
+            <ListItemLink href="/about" title="About Us" linkClassName="nav-link " />
             <ListItemLink href="/yang-style-tai-chi" title="Yang Style Tai Chi" linkClassName="nav-link " />
             <ListItemLink href="/gallery" title="Gallery" linkClassName="nav-link " />
             <ListItemLink href="/course" title="Courses" linkClassName="nav-link " />

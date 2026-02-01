@@ -10,8 +10,8 @@ export default function CTA6() {
               Join the Tai Chi Movement
             </h3>
             <p>
-              Whether you are a beginner, wellness enthusiast, martial artist, or instructor, the TaiChi Federation
-of India welcomes you to begin or deepen your Tai Chi journey.
+              Whether you are <b> a beginner, wellness enthusiast, martial artist, or instructor,</b> the TaiChi Federation
+              of India welcomes you to begin or deepen your Tai Chi journey.
             </p>
             <h4>
               Experience balance. Cultivate strength. Discover inner harmony.
