@@ -41,7 +41,7 @@ export default function Page() {
       <section className="wrapper bg-light">
         <div className="container ">
           <Masters />
-          <h3 className="text-center">Our Commitment</h3>
+          <h3 className="text-center text-primary">Our Commitment</h3>
           <p className="text-center">The Tai Chi Federation of India is committed to preserving the dignity, depth, and discipline of Tai Chi. Through quality education, regular practice, and community engagement, we aim to contribute positively to individual well-being and to the broader understanding of traditional internal martial arts in India.</p>
         </div>
       </section>

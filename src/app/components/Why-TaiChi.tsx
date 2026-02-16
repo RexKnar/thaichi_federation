@@ -12,7 +12,7 @@ export default function WhyTaiChi() {
 
 
 
-                    <h3 className="mb-12 text-center display-3">
+                    <h3 className="mb-12 text-center display-3 text-primary">
                         Here are a few reasons why you should <span className="text-primary">Practice TaiChi.</span>
                     </h3>
                 </div>

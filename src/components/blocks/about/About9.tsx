@@ -19,9 +19,10 @@ export default function About9() {
         </div>
 
         <div className="text-center col-lg-5 mt-lg-n10 text-lg-start">
-          <h2 className="mb-3 display-4">TaiChi Federation of India</h2>
+          <h2 className="mb-3 display-4 text-primary">TaiChi Federation of India</h2>
           <p className="lead fs-lg">
-            Preserving Tradition • Building Health • Cultivating Balance
+          Diligence • Perseverance • Respect • Sincerity
+
 
           </p>
           <p className="mb-6">
@@ -35,5 +36,5 @@ export default function About9() {
 
         </div>
       </div></>
-  );
+  ); 
 }

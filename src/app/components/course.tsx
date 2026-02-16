@@ -28,7 +28,7 @@ export default function HomeCourse() {
                 <div className="col-md-10 col-lg-7 mx-auto position-relative">
 
 
-                    <h3 className="display-3 mb-8 px-xl-6">
+                    <h3 className="display-3 mb-8 px-xl-6 text-primary">
                         Training & Programs
                     </h3>
                 </div>
@@ -159,7 +159,7 @@ export default function HomeCourse() {
                                 cardTop={
                                     <figure className=" card-img-top overlay overlay-1 hover-scale">
                                         <a className="link-dark" href="/course">
-                                            <Image width={960} height={600} src="/img/martialarts/Training6.jpg" alt="blog" className="h-auto w-100" />
+                                            <Image width={960} height={600} src="/img/martialarts/Certification_img.jpeg" alt="blog" className="h-auto w-100" />
                                             <span className="bg" />
                                         </a>
 

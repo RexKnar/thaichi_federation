@@ -44,7 +44,7 @@ export default function Wellness() {
 
   return (
     <Fragment>
-      <h2 className="display-4 mb-3 text-center">Health & Wellness Through Tai Chi
+      <h2 className="display-4 mb-3 text-center text-primary">Health & Wellness Through Tai Chi
       </h2>
       <p className="lead fs-lg mb-8 text-center">
       Tai Chi is a proven <b>mind–body practice </b> that promotes holistic health, making it ideal for individuals seeking long-term wellness and balance. It is especially beneficial for:

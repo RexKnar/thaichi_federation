@@ -10,7 +10,7 @@ export default function Masters() {
                    
 
 
-                    <h3 className="display-4 mb-3 text-center">
+                    <h3 className="display-4 mb-3 text-center text-primary">
                     Our Founder & Master
                     </h3>
                     <p className="lead fs-lg mb-8 text-center"><b>The TaiChi Federation of India</b> is founded on the vision, discipline, and lifelong dedication of <b>Late Master Michael A. Selvaraj,</b> a highly respected martial artist and Tai Chi practitioner who devoted his life to promoting traditional arts for <b>health, balance, and holistic well-being.</b></p>
@@ -60,7 +60,7 @@ export default function Masters() {
             </div>
             <div className="row gx-lg-8 gx-xl-12 gy-10 mb-14 mb-md-7 align-items-center mb-md-7">
                 <div className="col-md-8 col-lg-6 order-lg-2 order-1 ">
-                    <figure className="rounded">
+                    <figure className="rounded h-20 w-20">
                         <img src="/img/martialarts/Rajam_Trustee.jpeg" srcSet="/img/martialarts/Rajam_Trustee.jpeg" alt="" />
                     </figure>
                 </div>
@@ -82,7 +82,8 @@ export default function Masters() {
                 </div>
 
                 <div className="col-lg-6 order-lg-1 ">
-                    <h3 className="display-3 mb-5">Professional Chief Coach</h3>
+                    <h3 className="display-3 ">Professional Chief Coach</h3>
+                    <h6> Managing Finance Trustee– TFI</h6>
                     <h6 className="display-6 ">Master B. Shanmugam</h6>
                     <p className="mb-6">
                         The Tai Chi Federation of India is guided by Master B. Shanmugam, a senior practitioner and teacher of traditional Yang Style Tai Chi with over 25 years of dedicated experience in practice, training, and instruction.

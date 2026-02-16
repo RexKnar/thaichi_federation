@@ -41,7 +41,7 @@ export default function Page() {
                   <div className="row gx-0">
                     <div
                       className="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start d-none d-md-block"
-                      style={{ backgroundImage: "url(/img/martialarts/about.jpg)" }}
+                      style={{ backgroundImage: "url(/img/martialarts/Contact-Us.jpg)" }}
                     />
 
                     <div className="col-lg-6">

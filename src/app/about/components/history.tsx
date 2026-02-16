@@ -62,7 +62,7 @@ export default function History() {
     <Fragment>
       <div className="text-center row">
         <div className="mx-auto col-md-11 col-lg-9 col-xl-8 col-xxl-7 position-relative">
-         \
+         
 
           <h2 className="mb-3 text-center fs-16 text-uppercase text-muted">Generations</h2>
 
