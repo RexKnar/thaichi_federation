@@ -15,7 +15,7 @@ export default function Mission() {
     
 
     <div className="col-lg-8 mx-auto">
-      <h3 className="display-6 mb-4 text-center">Our Mission</h3>
+      <h3 className="display-6 mb-4 text-center text-primary">Our Mission</h3>
       <p className="mb-5">
       We believe consistent practice leads to long-term physical stability, mental clarity, and emotional balance.
       </p>

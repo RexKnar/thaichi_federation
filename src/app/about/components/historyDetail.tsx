@@ -4,30 +4,6 @@ export default function AboutHistory() {
       <div className="container px-10 py-10 py-md-10 px-md-12">
         
 
-        {/* <ul className="nav nav-tabs nav-tabs-bg d-flex justify-content-between nav-justified flex-lg-row flex-column">
-          <li className="nav-item">
-            <a className="flex-row nav-link d-flex active" data-bs-toggle="tab" href="#tab2-1">
-              <div>
-                <span className="mt-2 fs-50 d-block me-4">01</span>
-              </div>
-              <div>
-                <h3 className="mb-1 fs-21 ls-xs">History Of Taichi</h3>
-
-              </div>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="flex-row nav-link d-flex" data-bs-toggle="tab" href="#tab2-2">
-              <div>
-                <span className="mt-2 fs-50 d-block me-4">02</span>
-              </div>
-              <div>
-                <h3 className="mb-1 fs-21 ls-xs">History of Yang Style Tai Chi</h3>
-
-              </div>
-            </a>
-          </li>
-        </ul> */}
 
         <div className="mt-6 mb-5 tab-content1 mt-lg-8">
 
@@ -41,7 +17,7 @@ export default function AboutHistory() {
                 <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
                
                   <div>
-                    <h3 className="fs-40 d-block">History Of Taichi</h3>
+                    <h3 className="fs-40 d-block text-primary">History Of Taichi</h3>
 
                   </div>
                 </a>
@@ -75,7 +51,7 @@ export default function AboutHistory() {
                   <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
                  
                     <div>
-                      <h3 className="fs-40 d-block">History Of Yang Style Tai Chi</h3>
+                      <h3 className="fs-40 d-block text-primary">History Of Yang Style Tai Chi</h3>
 
                     </div>
                   </a>

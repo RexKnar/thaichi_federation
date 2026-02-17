@@ -26,7 +26,7 @@ export default function Process() {
 ];
   return (
     <Fragment>
-      <h2 className="display-4 mb-3 text-center">Our Approach</h2>
+      <h2 className="display-4 mb-3 text-center text-primary">Our Approach</h2>
       <p className="lead fs-lg mb-8 text-center">
         The Tai Chi Federation of India follows a<b>traditional, systematic, and lineage-based approach</b> training. <br/>Our methodology emphasizes:
       </p>
