@@ -70,7 +70,7 @@ export default function NavbarOne({
 
       <div id="offcanvas-nav" data-bs-scroll="true" className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
         <div className="offcanvas-header d-lg-none">
-          <h3 className="mb-0 text-white fs-30">taiChi Federation</h3>
+          <h3 className="mb-0 text-white fs-30">TaiChi Federation</h3>
           <button
             type="button"
             aria-label="Close"

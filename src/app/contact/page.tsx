@@ -84,7 +84,8 @@ export default function Page() {
                       <div>
                         <h5 className="mb-1">Address</h5>
                         <address>
-                          O-Block, 2nd Floor, ApptaMarket, <br className="d-none d-md-block" />
+                          <b>Authentic Martial Arts Academy</b>,
+                          <br />O-Block, 2nd Floor, Appta Market, <br className="d-none d-md-block" />
                           Nagercoil, Kanyakumari District,<br className="d-none d-md-block" />
                           Tamil Nadu, India.
                         </address>
@@ -99,7 +100,7 @@ export default function Page() {
                       </div>
                       <div>
                         <h5 className="mb-1">Phone</h5>
-                        <p><b>B. Shanmugam: </b>+91 9442079982 ,
+                        <p><b>B. Shunmugam: </b>+91 9442079982 ,
                           <br /><b>S. Karthikheyan: </b> +91 9791825549 ,<br />
                           <b>R. Nagarajan:</b> +91 9789894184.</p>
 
@@ -115,8 +116,8 @@ export default function Page() {
                       <div>
                         <h5 className="mb-1">E-mail</h5>
                         <p className="mb-0">
-                          <a href="mailto:shanmugam.taichi@gmail.com" className="link-body">
-                            shanmugam.taichi@gmail.com
+                          <a href="mailto:Shunmugam.taichi@gmail.com" className="link-body">
+                            Shunmugam.taichi@gmail.com
                           </a>
                         </p>
                       </div>
@@ -169,8 +170,9 @@ export default function Page() {
               height={500}
               allowFullScreen
               style={{ border: 0 }}
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25387.23478654725!2d-122.06115399490332!3d37.309248660190086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb4571bd377ab%3A0x394d3fe1a3e178b4!2sCupertino%2C%20CA%2C%20USA!5e0!3m2!1sen!2str!4v1645437305701!5m2!1sen!2str"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.0812622425688!2d77.4431256!3d8.194569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f11b87a9ba63%3A0xd80249e6f7a7906b!2sAuthentic%20Martial%20Arts%20Academy!5e0!3m2!1sen!2sin!4v1771383997837!5m2!1sen!2sin"
             />
+
           </div>
         </section>
 

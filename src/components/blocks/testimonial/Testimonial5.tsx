@@ -8,7 +8,7 @@ export default function Testimonial5() {
       name: '',
       image: '/img/martialarts/training-2.jpg',
       designation: '“Tai Chi is not just a form, it’s a way of life.”',
-      review: `The TaiChi Federation of India is led by Master B. Shanmugam, a senior Yang Style Tai Chi practitioner with over 25 years of experience. Trained under Late Master Micheal A. Selvaraj, he preserves and transmits authentic Tai Chi principles through systematic and traditional teaching.`
+      review: `The TaiChi Federation of India is led by Master B. Shunmugam, a senior Yang Style Tai Chi practitioner with over 25 years of experience. Trained under Late Master Micheal A. Selvaraj, he preserves and transmits authentic Tai Chi principles through systematic and traditional teaching.`
     },
   ];
 

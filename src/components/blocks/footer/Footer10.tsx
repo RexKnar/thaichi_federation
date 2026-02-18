@@ -28,7 +28,7 @@ export default function Footer10() {
         <div className="row gy-6 gy-lg-0">
           <div className="col-lg-6">
             <div className="widget">
-              <h3 className="mb-3 text-white h2">taiChi Federation of India</h3>
+              <h3 className="mb-3 text-white h2">TaiChi Federation of India</h3>
               <p className="mb-5 lead">
                 Promoting health, harmony and peace through authentic TaiChi practice since 2005.
               </p>
@@ -44,16 +44,17 @@ export default function Footer10() {
             <div className="widget">
               <h4 className="mb-3 text-white widget-title">Get in Touch</h4>
               <address>
-                O-Block, 2nd Floor, ApptaMarket, <br className="d-none d-md-block" />
+                <b>Authentic Martial Arts Academy</b>,
+                <br /> O-Block, 2nd Floor, Appta Market, <br className="d-none d-md-block" />
                 Nagercoil, Kanyakumari District,<br className="d-none d-md-block" />
                 Tamil Nadu, India.
               </address>
 
-              <br /> <p><b>B. Shanmugam: </b>+91 9442079982 ,
+              <br /> <p><b>B. Shunmugam: </b>+91 9442079982 ,
                 <br /><b>S. Karthikheyan: </b> +91 9791825549 ,<br />
                 <b>R. Nagarajan:</b> +91 9789894184. <br />
                 <br />
-                <a href="mailto:shanmugam.taichi@gmail.com">shanmugam.taichi@gmail.com</a></p>
+                <a href="mailto:Shunmugam.taichi@gmail.com">Shunmugam.taichi@gmail.com</a></p>
 
             </div>
           </div>
@@ -62,7 +63,7 @@ export default function Footer10() {
         <hr className="mt-13 mt-md-15 mb-7" />
 
         <div className="d-md-flex align-items-center justify-content-between">
-          <p className="mb-2 mb-lg-0">© 2025 taiChi Federation of India. All rights reserved.</p>
+          <p className="mb-2 mb-lg-0">© 2026 TaiChi Federation of India. All rights reserved.</p>
           <SocialLinks className="nav social social-white text-md-end" />
         </div>
       </div>
