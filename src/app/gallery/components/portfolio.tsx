@@ -32,7 +32,23 @@ export default function Portfolio() {
     { id: 10, image: '10', title: 'TaiChi Federation Of India', category: 'practice' },
     { id: 11, image: '11', title: 'TaiChi Federation Of India', category: 'matche' },
     { id: 12, image: '12', title: 'TaiChi Federation Of India', category: 'practice' },
-    { id: 13, image: '13', title: 'TaiChi Federation Of India', category: 'matche' }
+    { id: 13, image: '13', title: 'TaiChi Federation Of India', category: 'matche' },
+    { id: 14, image: '14', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 15, image: '15', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 16, image: '16', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 17, image: '17', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 18, image: '18', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 19, image: '19', title: 'TaiChi Federation Of India', category: 'practice' },
+    { id: 20, image: '20', title: 'TaiChi Federation Of India', category: 'practice match' },
+    { id: 21, image: '21', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 22, image: '22', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 23, image: '23', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 24, image: '24', title: 'TaiChi Federation Of India', category: 'events' },
+    { id: 25, image: '25', title: 'TaiChi Federation Of India', category: 'practice' },
+    { id: 26, image: '26', title: 'TaiChi Federation Of India', category: 'match' },
+    { id: 27, image: '27', title: 'TaiChi Federation Of India', category: 'practice' },
+    { id: 28, image: '28', title: 'TaiChi Federation Of India', category: 'practice' },
+
   ];
 
 

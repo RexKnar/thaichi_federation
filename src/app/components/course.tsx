@@ -34,60 +34,9 @@ export default function HomeCourse() {
                 </div>
             </div>
 
-            {/* <div className="row ">
-                <div className="col-xxl-11 mx-auto">
-                    <div className="row gy-10 gy-lg-0 text-center d-flex align-items-center">
-                        <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
-                            <BlogCard2
-                                link="/course"
-                                category="30–45 min demo session"
-                                title="Free Demo Session"
-                                description="The forst demo session if FREE for all interested participants!"
-                                cardTop={
-                                    <figure className=" card-img-top overlay overlay-1 hover-scale">
-                                        <a className="link-dark" href="/course">
-                                            <Image width={960} height={600} src="/img/martialarts/Taichi_Classes.JPG" alt="blog" className="h-auto w-100" />
-                                            <span className="bg" />
-                                        </a>
 
-                                        <figcaption className="pt-10 text-start">
-                                            <h2>Ideal for groups of 10 or more participants</h2>
-                                            <p>Suitable for All Ages & Fitness Levels</p>
-                                            <h2>Session includes:</h2>
-                                            <ul>
-                                                <li>Introduction to TaiChi – What is TaiChi?</li>
-                                                <li>Overview of TaiChi Forms</li>
-                                                <li>Live Demonstration of TaiChi Forms</li>
-
-                                                <li>
-                                                    The first demo session is FREE for all interested
-                                                    participants!{" "}
-                                                </li>
-                                            </ul>{" "}
-                                        </figcaption>
-                                    </figure>
-                                }
-                            />
-
-                          
-                        </div>
-
-                        <div className="w-100 d-lg-none" />
-
-                        <div className="col-md-6 col-lg-4 order-lg-first">
-                            <Item no="01" index={0} title="Download Application" className="mb-8" />
-                            <Item no="02" index={1} title="Quick Registration" />
-                        </div>
-
-                        <div className="col-md-6 col-lg-4">
-                            <Item no="03" index={2} title="Track Your Spending" className="mb-8" />
-                            <Item no="04" index={3} title="Have Total Control" />
-                        </div>
-                    </div>
-                </div>
-            </div> */}
             <div className="row">
-            <div className="col-xxl-11 mx-auto">
+                <div className="col-xxl-11 mx-auto">
                     <div className="row gy-10 gy-lg-0 text-center d-flex align-items-center">
                         <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
                             <BlogCard2
@@ -106,7 +55,7 @@ export default function HomeCourse() {
                                 }
                             />
 
-                   
+
                         </div>
                         <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
                             <BlogCard2
@@ -121,7 +70,7 @@ export default function HomeCourse() {
                                             <span className="bg" />
                                         </a>
 
-                                        
+
                                     </figure>
                                 }
                             />
@@ -145,11 +94,11 @@ export default function HomeCourse() {
                                 }
                             />
 
-                            {/* </div> */}
+
                         </div>
-                        
-                        </div>
-                        <div className="row mt-10 gy-10 gy-lg-0 text-center d-flex align-items-center">
+
+                    </div>
+                    <div className="row mt-10 gy-10 gy-lg-0 text-center d-flex align-items-center">
                         <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
                             <BlogCard2
                                 link="/course"
@@ -159,7 +108,7 @@ export default function HomeCourse() {
                                 cardTop={
                                     <figure className=" card-img-top overlay overlay-1 hover-scale">
                                         <a className="link-dark" href="/course">
-                                            <Image width={960} height={600} src="/img/martialarts/Certification_img.jpeg" alt="blog" className="h-auto w-100" />
+                                            <Image width={960} height={600} src="/img/martialarts/Cheif_Instructor_Award.jpg" alt="blog" className="h-auto w-100" />
                                             <span className="bg" />
                                         </a>
 
@@ -167,7 +116,7 @@ export default function HomeCourse() {
                                 }
                             />
 
-                            {/* </div> */}
+
                         </div>
                         <div className="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
                             <BlogCard2
@@ -201,11 +150,11 @@ export default function HomeCourse() {
                                 }
                             />
 
-                            {/* </div> */}
-                        </div>
 
                         </div>
-                        </div>
+
+                    </div>
+                </div>
             </div>
         </Fragment>
     );

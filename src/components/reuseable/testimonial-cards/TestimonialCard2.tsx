@@ -19,7 +19,7 @@ export default function TestimonialCard2({
 }: TestimonialCard2Props) {
   return (
     <blockquote className={blockClassName}>
-      <p>“{review}”</p>
+      <p dangerouslySetInnerHTML={{ __html: review }}></p>
 
       <div className={blockDetailsClassName}>
         <div className="info ps-0">

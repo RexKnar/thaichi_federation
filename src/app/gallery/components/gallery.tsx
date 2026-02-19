@@ -18,7 +18,7 @@ export default function GalleryComponent() {
       </a>
 
       <div className="glightbox-desc caption1">
-        <p className="mb-0">This div will be used as the image description. HTML is supported.</p>
+        {/* <p className="mb-0">This div will be used as the image description. HTML is supported.</p> */}
       </div>
     </>
   );
