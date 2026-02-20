@@ -14,7 +14,7 @@ export default function About() {
                         style={{ width: "85%", height: "90%", right: "-0.8rem", bottom: "-1.8rem" }} />
 
                     <figure className="rounded">
-                        <img src="/img/martialarts/Image_Wed25.JPG" srcSet="/img/martialarts/Image_Wed25.JPG" alt="hero" />
+                        <img src="/img/martialarts/Cheif_Instructor_Award.jpg" srcSet="/img/martialarts/Cheif_Instructor_Award.jpg" alt="hero" />
                     </figure>
                 </div>
                 <div className="text-center col-lg-6 mt-lg-n10 text-lg-start">

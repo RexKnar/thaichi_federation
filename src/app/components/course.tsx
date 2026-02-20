@@ -108,7 +108,7 @@ export default function HomeCourse() {
                                 cardTop={
                                     <figure className=" card-img-top overlay overlay-1 hover-scale">
                                         <a className="link-dark" href="/course">
-                                            <Image width={960} height={600} src="/img/martialarts/Cheif_Instructor_Award.jpg" alt="blog" className="h-auto w-100" />
+                                            <Image width={960} height={600} src="/img/martialarts/Certification_img.jpeg" alt="blog" className="h-auto w-100" />
                                             <span className="bg" />
                                         </a>
 
