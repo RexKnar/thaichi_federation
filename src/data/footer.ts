@@ -14,11 +14,11 @@ export const helps = [
 ];
 
 export const learnMore = [
-  { id: 1, title: 'About Us', url: '#' },
-  { id: 2, title: 'Gallery', url: '#' },
-  { id: 3, title: 'Course', url: '#' },
-  { id: 4, title: 'Contact Us', url: '#' },
-  { id: 5, title: 'Home', url: '#' }
+  { id: 1, title: 'About Us', url: '/about' },
+  { id: 2, title: 'Gallery', url: '/gallery' },
+  { id: 3, title: 'Course', url: '/course' },
+  { id: 4, title: 'Contact Us', url: '/contact' },
+  { id: 5, title: 'Home', url: '/' }
 ];
 
 export const tags = [

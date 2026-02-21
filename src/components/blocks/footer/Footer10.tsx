@@ -54,7 +54,7 @@ export default function Footer10() {
                 <br /><b>S. Karthikheyan: </b> +91 9791825549 ,<br />
                 <b>R. Nagarajan:</b> +91 9789894184. <br />
                 <br />
-                <a href="mailto:Shunmugam.taichi@gmail.com">Shunmugam.taichi@gmail.com</a></p>
+                <a href="mailto:authenticacademy.official@gmail.com ">authenticacademy.official@gmail.com </a></p>
 
             </div>
           </div>

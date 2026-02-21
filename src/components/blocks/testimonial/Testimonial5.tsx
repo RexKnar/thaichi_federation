@@ -8,7 +8,7 @@ export default function Testimonial5() {
       name: '',
       image: '/img/martialarts/training-2.jpg',
       designation: '“Tai Chi is not just a form, it’s a way of life.”',
-      review: `The TaiChi Federation of India is led by <b>Master B. Shunmugam</b>,  a senior Yang Style Tai Chi practitioner with over 25 years of experience. Trained under <b>Late Master Micheal A. Selvaraj</b>, he preserves and transmits authentic Tai Chi principles through systematic and traditional teaching.`
+      review: `The TaiChi Federation of India is led by <br/> <b>Master B. Shunmugam</b>,  a senior Yang Style Tai Chi practitioner with over 25 years of experience. Trained under <br/> <b>Late Master Micheal A. Selvaraj</b>, he preserves and transmits authentic Tai Chi principles through systematic and traditional teaching.`
     },
   ];
 
@@ -27,7 +27,7 @@ export default function Testimonial5() {
             </figure>
           </div>
 
-          <div className="col-md-7 col-lg-6 col-xl-6 col-xxl-5 offset-xl-1">
+          <div className="col-md-7 col-lg-6 col-xl-6 col-xxl-6 offset-xl-1">
             <div className="swiper-container dots-start dots-closer mt-md-10 mb-md-15">
               <Carousel grabCursor slidesPerView={1} navigation={false}>
                 {testimonialList2.map((item, i) => (

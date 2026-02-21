@@ -116,8 +116,8 @@ export default function Page() {
                       <div>
                         <h5 className="mb-1">E-mail</h5>
                         <p className="mb-0">
-                          <a href="mailto:Shunmugam.taichi@gmail.com" className="link-body">
-                            Shunmugam.taichi@gmail.com
+                          <a href="mailto:authenticacademy.official@gmail.com " className="link-body">
+                            authenticacademy.official@gmail.com
                           </a>
                         </p>
                       </div>
