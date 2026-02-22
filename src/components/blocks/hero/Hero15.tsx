@@ -15,7 +15,7 @@ export default function Hero15() {
             style={{ backgroundImage: 'url("/img/martialarts/selvaraj-master.png")', backgroundPositionY: '0px' }}>
             <div className="container h-100">
               <div className="row h-100">
-                <div className="position-absolute bottom-0 col-md-10 offset-md-1 col-lg-7 offset-lg-0 col-xl-6 col-xxl-5 text-center text-lg-start justify-content-center align-self-center align-items-start">
+                <div className="position-absolute bottom-0 col-md-10 offset-md-1 col-lg-8 offset-lg-0 col-xl-7 col-xxl-7 text-center text-lg-start justify-content-center align-self-center align-items-start">
                   <h2 className="display-1 fs-56 mb-4 text-white animate__animated animate__slideInDown animate__delay-1s">
                     Move Gently. Live Strong.
                   </h2>
