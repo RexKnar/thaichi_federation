@@ -22,7 +22,7 @@ export default function About() {
                         <h2 className="mb-3 display-4 text-justify text-primary">Who We Are</h2>
 
                         <p className="mb-6 text-justify">
-                            We are a traditional Tai Chi school dedicated to preserving and sharing <b>authentic Yang Style Tai Chi</b>. For over <b>25 years</b>, our school has guided students of all ages toward better health, balance, and inner calm through disciplined and mindful practice.
+                            We are a traditional Tai Chi school dedicated to preserving and sharing <b>authentic Yang Style Tai Chi</b>. For over <b>27 years</b>, our school has guided students of all ages toward better health, balance, and inner calm through disciplined and mindful practice.
                         </p>
                         <p className="mb-6 text-justify">
                             Our focus is not just on physical movement, but on nurturing overall well-being—body, mind, and breath.</p>

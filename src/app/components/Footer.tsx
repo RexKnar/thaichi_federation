@@ -63,7 +63,7 @@ export default function Footer() {
                 <hr className="mt-13 mt-md-15 mb-7" />
 
                 <div className="d-md-flex align-items-center justify-content-between">
-                    <p className="mb-2 mb-lg-0">© 2025 TaiChi Federation of India. All rights reserved.</p>
+                    <p className="mb-2 mb-lg-0">© 2026 TaiChi Federation of India. All rights reserved.</p>
                     <SocialLinks className="nav social social-white text-md-end" />
                 </div>
             </div>

@@ -30,7 +30,7 @@ export default function Footer10() {
             <div className="widget">
               <h3 className="mb-3 text-white h2">TaiChi Federation of India</h3>
               <p className="mb-5 lead">
-                Promoting health, harmony and peace through authentic TaiChi practice since 2005.
+                Promoting health, harmony and peace through authentic TaiChi practice since 2000.
               </p>
               <NextLink title="Join Us" href="/contact" className="btn btn-white rounded-pill" />
             </div>

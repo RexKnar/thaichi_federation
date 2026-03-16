@@ -86,7 +86,7 @@ export default function Masters() {
                     <h6> Managing Finance Trustee– TFI</h6>
                     <h6 className="display-6 ">Master B. Shunmugam</h6>
                     <p className="mb-6">
-                        The Tai Chi Federation of India is guided by Master B. Shunmugam, a senior practitioner and teacher of traditional Yang Style Tai Chi with over 25 years of dedicated experience in practice, training, and instruction.
+                        The Tai Chi Federation of India is guided by Master B. Shunmugam, a senior practitioner and teacher of traditional Yang Style Tai Chi with over 27 years of dedicated experience in practice, training, and instruction.
                     </p>
                     <p>
                         <b> Master B. Shunmugam </b>was trained under Late Master Michael A. Selvaraj, a highly respected martial artist and Tai Chi master who played a pivotal role in introducing and spreading authentic Yang Style Tai Chi in India. Carrying forward this esteemed lineage, <b>Master B. Shunmugam</b> remains committed to preserving the purity, discipline, and depth of classical Tai Chi.
