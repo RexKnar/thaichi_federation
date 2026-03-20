@@ -1,7 +1,3 @@
-import ListColumn from "components/reuseable/ListColumn";
-// CUSTOM DATA
-import { aboutList2 } from "data/about";
-
 export default function Masters() {
     return (
         <>

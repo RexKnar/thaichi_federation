@@ -7,22 +7,9 @@ import useSticky from "hooks/useSticky";
 import useNestedDropdown from "hooks/useNestedDropdown";
 // -------- CUSTOM COMPONENTS -------- //
 import NextLink from "components/reuseable/links/NextLink";
-import SocialLinks from "components/reuseable/SocialLinks";
 // LOCAL CUSTOM COMPONENTS
-import Info from "../components/Info";
-import Search from "../components/search";
-import Signin from "../components/signin";
-import Signup from "../components/signup";
-import MiniCart from "../components/mini-cart";
 import HeaderRight from "../components/header-right";
 import FancyHeader from "../components/fancy-header";
-import BlogNavItem from "../components/blog-nav-item";
-import DemosNavItem from "../components/demos-nav-item";
-import PagesNavItem from "../components/pages-nav-item";
-import BlocksNavItem from "../components/blocks-nav-item";
-import ProjectsNavItem from "../components/projects-nav-item";
-import DocumentationNavItem from "../components/documentation-nav-item";
-import Link from "next/link";
 import ListItemLink from "components/reuseable/links/ListItemLink";
 
 // ===================================================================

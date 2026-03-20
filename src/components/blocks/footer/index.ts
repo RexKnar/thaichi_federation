@@ -1,6 +1,1 @@
-
-import Footer10 from './Footer10';
-
-export {
-  Footer10,
-};
+export { default as Footer10 } from './Footer10';

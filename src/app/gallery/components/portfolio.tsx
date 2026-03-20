@@ -6,9 +6,6 @@ import LightBox from "components/LightBox";
 // GLOBAL CUSTOM HOOKS
 import useIsotope from "hooks/useIsotope";
 // CUSTOM DATA
-import { portfolioList4, portfolioList6 } from "data/portfolio";
-import { Portfolio11 } from "components/blocks/portfolio";
-import { ProjectCard3 } from "components/reuseable/project-cards";
 
 export default function Portfolio() {
   const { filterKey, handleFilterKeyChange } = useIsotope();

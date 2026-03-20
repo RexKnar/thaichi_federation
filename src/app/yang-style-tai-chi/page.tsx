@@ -1,12 +1,11 @@
 
 import History from "app/about/components/history";
 import AboutHistory from "app/about/components/historyDetail";
-import { Process6 } from "components/blocks/process";
 
 export default function About() {
     return (
-       
-      <><section className="wrapper bg-soft-primary">
+
+        <><section className="wrapper bg-soft-primary">
             <div className="container pb-5 text-center pt-18 pt-md-18 pb-md-5">
                 <div className="row">
                     <div className="mx-auto mb-6 col-xl-5">
@@ -18,14 +17,15 @@ export default function About() {
         </section>
             <section className="wrapper bg-light">
                 <div className="container pt-10 pb-6 pt-md-10">
-                <AboutHistory/>
+                    <AboutHistory />
                 </div>
             </section>
             <section className="wrapper bg-soft-primary">
-               
-            <div className="container pt-16 pb-6 pt-md-18">
-            <History />
-            </div>
+
+                <div className="container pt-16 pb-6 pt-md-18">
+                    <History />
+                </div>
             </section></>
 
-    ) }
+    )
+}

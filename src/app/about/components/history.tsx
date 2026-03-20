@@ -1,14 +1,4 @@
-
 import { Fragment } from "react";
-
-
-import Carousel from "components/reuseable/Carousel";
-import NextLink from "components/reuseable/links/NextLink";
-import { TeamCard2 } from "components/reuseable/team-cards";
-// CUSTOM UTILS LIBRARY FUNCTIONS
-import carouselBreakpoints from "utils/carouselBreakpoints";
-// CUSTOM DATA
-import teams from "data/team-list";
 import Image from "next/image";
 
 
@@ -62,7 +52,7 @@ export default function History() {
     <Fragment>
       <div className="text-center row">
         <div className="mx-auto col-md-11 col-lg-9 col-xl-8 col-xxl-7 position-relative">
-         
+
 
           <h2 className="mb-3 text-center fs-16 text-uppercase text-muted">Generations</h2>
 
@@ -75,19 +65,16 @@ export default function History() {
       <div className="row d-flex align-items-start mb-19">
 
         <div className="col-lg-7 position-lg-sticky" style={{ top: "8rem" }}>
-          <div className="mb-6 text-center  row">
-            {/* <Carousel grabCursor navigation={false} breakpoints={carouselBreakpoints}> */}
+          <div className="mb-6 text-center row">
             {timelines.map((generation) => (
-              <div className="text-center col-6 col-md-4" key={generation.id}>
-                <div className="w-20 mx-auto mb-4 overflow-hidden rounded-circle ">
-                  <Image src={generation.imgPath} width={500} height={500} alt="Team Member" className="h-auto w-100" />
+              <div className="col-6 col-md-4 d-flex flex-column align-items-center mb-10" key={generation.id}>
+                <div className="overflow-hidden rounded-pill mb-4 shadow-sm" style={{ width: 130, height: 170 }}>
+                  <Image src={generation.imgPath} width={500} height={500} alt="Team Member" className="h-100 w-100" style={{ objectFit: 'cover' }} />
                 </div>
 
-                <h4 className="mb-1">{generation.title}</h4>
-
+                <h4 className="mb-0 text-center">{generation.title}</h4>
               </div>
             ))}
-            {/* </Carousel> */}
           </div>
         </div>
 

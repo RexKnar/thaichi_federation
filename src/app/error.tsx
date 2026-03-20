@@ -1,9 +1,9 @@
 "use client";
 
+import Image from "next/image";
 import { Fragment } from "react";
 // -------- CUSTOM COMPONENTS -------- //
 import Navbar from "components/blocks/navbar/navbar-1";
-import FigureImage from "components/reuseable/FigureImage";
 import NextLink from "components/reuseable/links/NextLink";
 
 // ==============================================================
@@ -29,7 +29,9 @@ export default function NotFound({ error, reset }: Props) {
           <div className="container pt-12 pt-md-14 pb-14 pb-md-16">
             <div className="row">
               <div className="col-lg-9 col-xl-8 mx-auto">
-                <FigureImage width={800} height={316} className="mb-10" src="/img/illustrations/404.png" />
+                <figure className="mb-10">
+                  <img src="/img/illustrations/404.png" alt="error" className="w-100" />
+                </figure>
               </div>
 
               <div className="col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center">

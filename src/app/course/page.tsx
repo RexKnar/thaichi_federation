@@ -1,29 +1,15 @@
 import { Fragment } from "react";
 // CUSTOM DATA
 import ListColumn from "components/reuseable/ListColumn";
-import NextLink from "components/reuseable/links/NextLink";
-import { JobPostCard1 } from "components/reuseable/job-cards";
-// CUSTOM DATA
-import data from "data/job-details-page";
-import internal from "stream";
-
-export async function generateStaticParams() {
-    return [1, 2, 3, 4, 5, 6].map((item) => ({ id: item.toString() }));
-}
-
-
 
 // ==============================================================
 interface Props {
-    params: Promise<{ id: number }>;
 }
 // ==============================================================
 
-export default async function CourseDetails({ params }: Props) {
-    const { id } = await params;
-    console.log({ id });
+export default async function CourseDetails() {
 
-    const responsiblities = [
+    const responsibilities = [
         ['13 Tai Chi Health Exercises (for flexibility, balance, and vitality)', '8 Form – Introduction to basic Tai Chi form movements'],
         ['13 Form – Progressive form sequence for coordination and flow', 'Basic stance training and alignment principles']
     ];
@@ -81,7 +67,7 @@ export default async function CourseDetails({ params }: Props) {
                                             exercises.
                                         </p>
                                         <h6 className="h6 mb-3 mt-9">Course Includes:</h6>
-                                        <ListColumn rowClass="gx-xl-8" list={responsiblities} />
+                                        <ListColumn rowClass="gx-xl-8" list={responsibilities} />
                                         <p><b>Outcome:</b> Students develop body awareness, improved balance, reduced stress, and a solid
                                             foundation in Yang Style Tai Chi.</p>
                                         <h3 className="h3 mb-3 mt-9">Intermediate Course</h3>
@@ -111,7 +97,7 @@ export default async function CourseDetails({ params }: Props) {
                                         </p>
 
                                         <h6 className="h6 mb-3 mt-9">Course Includes:</h6>
-                                        <ListColumn rowClass="gx-xl-8" list={intermediateCourse} />
+                                        <ListColumn rowClass="gx-xl-8" list={advancedCourse} />
                                         <p><b>Outcome:</b> Practitioners develop advanced control, endurance, internal strength, and deeper insight
                                             into Tai Chi as a lifelong art.</p>
 
@@ -133,14 +119,14 @@ export default async function CourseDetails({ params }: Props) {
                                                     <thead>
                                                         <tr>
                                                             <th scope="col">Level</th>
-                                                            <th scope="col">Durtion</th>
+                                                            <th scope="col">Duration</th>
                                                             <th scope="col">Forms & Training</th>
                                                             <th scope="col">Course Fee</th>
                                                         </tr>
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td scope="row"> Beginner Course</td>
+                                                            <td scope="row">Beginner Course</td>
                                                             <td scope="row">6 Months</td>
                                                             <td scope="row">13 Health Exercises, 8 Form, 13 Form</td>
                                                             <td scope="row">₹6,000 INR</td>

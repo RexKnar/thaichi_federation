@@ -1,6 +1,5 @@
 import LightBox from "components/LightBox";
 import Carousel from "components/reuseable/Carousel";
-import NextLink from "components/reuseable/links/NextLink";
 
 export default function Hero15() {
   return (
