@@ -29,22 +29,22 @@ export default function History() {
       id: 4,
       duration: '1883 - 1936',
       imgPath: '/img/generation/Gen4.png',
-      title: 'Yang Chengfu',
+      title: 'Fu Zhong Wen',
       description: `Son of Yang Jianhou. Modernized Yang style into the large, open, and flowing form practiced worldwide today. Promoted Tai Chi for health and well-being.`
     },
     {
       id: 5,
       duration: '1926 - 2020',
       imgPath: '/img/generation/Gen5.png',
-      title: 'Yang Zhenduo',
-      description: `Grandson of Yang Chengfu. Dedicated his life to spreading Yang Style Tai Chi internationally. Founded the International Yang Style Tai Chi Chuan Association.`
+      title: 'Fu Sheng Yuan',
+      description: `Son of Fu Zhong Wen. Dedicated his life to spreading Yang Style Tai Chi internationally. Founded the International Yang Style Tai Chi Chuan Association.`
     },
     {
       id: 6,
       duration: '1968 - PRESENT',
       imgPath: '/img/generation/Gen6.png',
-      title: 'Yang Jun',
-      description: `Great-great-grandson of Yang Luchan. Current lineage holder and president of the International Yang Style Tai Chi Chuan Association, continuing to promote Yang Style globally.`
+      title: 'Fu Qing Quan',
+      description: `Grandson of Fu Zhong Wen. Current lineage holder and president of the International Yang Style Tai Chi Chuan Association, continuing to promote Yang Style globally.`
     }
   ]
     ;

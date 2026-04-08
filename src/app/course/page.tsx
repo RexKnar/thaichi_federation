@@ -68,8 +68,7 @@ export default async function CourseDetails() {
                                         </p>
                                         <h6 className="h6 mb-3 mt-9">Course Includes:</h6>
                                         <ListColumn rowClass="gx-xl-8" list={responsibilities} />
-                                        <p><b>Outcome:</b> Students develop body awareness, improved balance, reduced stress, and a solid
-                                            foundation in Yang Style Tai Chi.</p>
+                                        <p><b>Outcome:</b> Students develop body awareness, improved balance, reduced stress, and a solid foundation in Yang Style Tai Chi.</p>
                                         <h3 className="h3 mb-3 mt-9">Intermediate Course</h3>
                                         <p>
                                             <b>Duration:</b> 6 Months<br />
@@ -81,8 +80,7 @@ export default async function CourseDetails() {
 
                                         <h6 className="h6 mb-3 mt-9">Course Includes:</h6>
                                         <ListColumn rowClass="gx-xl-8" list={intermediateCourse} />
-                                        <p><b>Outcome:</b> Students gain smoother movement, improved internal strength, better coordination, and
-                                            deeper understanding of Tai Chi principles.</p>
+                                        <p><b>Outcome:</b> Students gain smoother movement, improved internal strength, better coordination, and deeper understanding of Tai Chi principles.</p>
 
 
 
@@ -128,7 +126,7 @@ export default async function CourseDetails() {
                                                         <tr>
                                                             <td scope="row">Beginner Course</td>
                                                             <td scope="row">6 Months</td>
-                                                            <td scope="row">13 Health Exercises, 8 Form, 13 Form</td>
+                                                            <td scope="row">13 Health Exercises, 8 Form, 13 Form, Basic Stance</td>
                                                             <td scope="row">₹6,000 INR</td>
 
                                                         </tr>
@@ -136,7 +134,7 @@ export default async function CourseDetails() {
                                                             <td>Intermediate Course</td>
 
                                                             <td>6 Months</td>
-                                                            <td>28 Form</td>
+                                                            <td>28 Form, Refinement, Breath/Mind/Qi training</td>
                                                             <td>₹8,000 INR</td>
                                                         </tr>
                                                         <tr>
