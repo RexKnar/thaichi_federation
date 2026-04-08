@@ -53,8 +53,9 @@ export default function ContactForm() {
         (e.target as HTMLFormElement).reset();
         generateCaptcha();
       } else {
-        setError(result.error || "Something went wrong. Please try again later.");
-        if (result.error?.includes("captcha")) generateCaptcha();
+        const displayError = result.details? `${result.error}: ${result.details}` : result.error;
+        setError(displayError || "Something went wrong. Please try again later.");
+        if (result.error?.toLowerCase().includes("captcha")) generateCaptcha();
       }
     } catch (err) {
       console.error("Submission error:", err);

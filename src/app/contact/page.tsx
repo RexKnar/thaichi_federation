@@ -116,7 +116,7 @@ export default function Page() {
                       <div>
                         <h5 className="mb-1">E-mail</h5>
                         <p className="mb-0">
-                          <a href="mailto:authenticacademy.official@gmail.com " className="link-body">
+                          <a href="mailto:authenticacademy.official@gmail.com" className="link-body">
                             authenticacademy.official@gmail.com
                           </a>
                         </p>
@@ -156,6 +156,7 @@ export default function Page() {
 
                 <div className="col-lg-6">
                   <ContactForm />
+
                 </div>
               </div>
             </div>

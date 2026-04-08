@@ -1,8 +1,18 @@
 import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 export async function POST(req: Request) {
     try {
-        const { name, surname, email, option, message, num1, num2, captchaAnswer } = await req.json();
+        const {
+            name = "",
+            surname = "",
+            email = "",
+            option = "General Inquiry",
+            message = "",
+            num1 = 0,
+            num2 = 0,
+            captchaAnswer = 0
+        } = await req.json();
 
         // Server-side Captcha Validation
         if (Number(num1) + Number(num2) !== Number(captchaAnswer)) {
@@ -12,27 +22,33 @@ export async function POST(req: Request) {
             );
         }
 
-        const RESEND_API_KEY = process.env.RESEND_API_KEY;
+        const SMTP_USER = process.env.SMTP_USER;
+        const SMTP_PASS = process.env.SMTP_PASS;
+        const SMTP_RECEIVER = process.env.SMTP_RECEIVER || "authenticacademy.official@gmail.com";
 
-        if (!RESEND_API_KEY) {
-            console.error("RESEND_API_KEY is not set in environment variables.");
+        if (!SMTP_USER || !SMTP_PASS) {
+            console.error("SMTP credentials are not set in environment variables.");
             return NextResponse.json(
-                { error: "Email service not configured. Please add RESEND_API_KEY to your .env file." },
+                { error: "Email service not configured. Please add SMTP_USER and SMTP_PASS to your .env file." },
                 { status: 500 }
             );
         }
 
-        const response = await fetch("https://api.resend.com/emails", {
-            method: "POST",
-            headers: {
-                Authorization: `Bearer ${RESEND_API_KEY}`,
-                "Content-Type": "application/json",
+        // Create a transporter using Gmail SMTP
+        const transporter = nodemailer.createTransport({
+            service: "gmail",
+            auth: {
+                user: SMTP_USER,
+                pass: SMTP_PASS,
             },
-            body: JSON.stringify({
-                from: "Contact Form <onboarding@resend.dev>",
-                to: "authenticacademy.official@gmail.com",
-                subject: `New Contact Form Message: ${option}`,
-                html: `
+        });
+
+        const mailOptions = {
+            from: `"Contact Form" <${SMTP_USER}>`,
+            to: SMTP_RECEIVER,
+            replyTo: email,
+            subject: `New Contact Form Message: ${option}`,
+            html: `
           <div style="font-family: sans-serif; line-height: 1.6; color: #333;">
             <h2 style="color: #0070f3;">New Contact Inquiry</h2>
             <p><strong>Name:</strong> ${name} ${surname}</p>
@@ -46,19 +62,18 @@ export async function POST(req: Request) {
             <p style="font-size: 12px; color: #888;">This message was sent from the TaiChi Federation contact form.</p>
           </div>
         `,
-                reply_to: email,
-            }),
-        });
+        };
 
-        if (response.ok) {
-            return NextResponse.json({ success: true });
-        } else {
-            const errorData = await response.json();
-            console.error("Resend API error:", errorData);
-            return NextResponse.json({ error: "Failed to send email." }, { status: 500 });
-        }
-    } catch (error) {
+        // Send the email
+        await transporter.sendMail(mailOptions);
+
+        return NextResponse.json({ success: true });
+
+    } catch (error: any) {
         console.error("Contact API error:", error);
-        return NextResponse.json({ error: "Internal server error." }, { status: 500 });
+        return NextResponse.json({ 
+            error: "Failed to send email.", 
+            details: error.message || "Internal server error." 
+        }, { status: 500 });
     }
 }
