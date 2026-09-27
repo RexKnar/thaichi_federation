@@ -34,7 +34,7 @@ export default function Hero15() {
             </div>
           </div>
 
-          <div
+          {/* <div
             className="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
             style={{
               backgroundImage: 'url("/img/martialarts/TFI_Banner.jpeg")',
@@ -45,7 +45,7 @@ export default function Hero15() {
                 <div className="col-md-11 col-lg-8 col-xl-7 col-xxl-6 mx-auto text-center justify-content-center align-self-center"></div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div
             className="swiper-slide bg-overlay bg-overlay-400 bg-dark bg-image"
             style={{ backgroundImage: 'url("/img/martialarts/Banner.png")' }}
