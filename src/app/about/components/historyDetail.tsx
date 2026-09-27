@@ -2,7 +2,7 @@ export default function AboutHistory() {
   return (
     <section className="wrapper bg-light">
       <div className="container px-10 py-10 py-md-10 px-md-12">
-        
+
 
 
         <div className="mt-6 mb-5 tab-content1 mt-lg-8">
@@ -15,7 +15,7 @@ export default function AboutHistory() {
 
               <div className="col-lg-12">
                 <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
-               
+
                   <div>
                     <h3 className="fs-40 d-block text-primary">History Of Taichi</h3>
 
@@ -49,7 +49,7 @@ export default function AboutHistory() {
               <div className="col-lg-12">
                 <div className="tab-pane1 fade1" id="tab2-21">
                   <a className="flex-row nav-link d-flex gap-5 active" data-bs-toggle="tab" href="#tab2-1">
-                 
+
                     <div>
                       <h3 className="fs-40 d-block text-primary">History Of Yang Style Tai Chi</h3>
 
@@ -59,13 +59,13 @@ export default function AboutHistory() {
 
 
                     <div className="col-lg-12">
-                    
+
                       <p>
                         Yang Style Tai Chi is the most widely practiced form of Tai Chi in the world today.
                       </p>
-                      <p>It was founded in the <b>mid-19th century</b> by <b>Yang Luchan (1799–1872),</b> a legendary martial artist from Hebei Province, China. Yang Luchan originally learned <b>Chen Style Tai Chi</b> from the Chen family in Chenjiagou village.</p>
+                      <p>It was founded in the <b>mid-19th century</b> by <b>Yang Lu Chan (1799–1872),</b> a legendary martial artist from Hebei Province, China. Yang Lu Chan originally learned <b>Chen Style Tai Chi</b> from the Chen family in Chenjiagou village.</p>
                       <p>
-                        Through years of mastery, refinement, and experience, Yang Luchan adapted the practice into a form that was:
+                        Through years of mastery, refinement, and experience, Yang Lu Chan adapted the practice into a form that was:
                       </p> <ul>
                         <li>Softer and more flowing</li>
                         <li>Accessible to a wider population</li>

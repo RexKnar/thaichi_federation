@@ -13,7 +13,7 @@ export default function Portfolio() {
   const filterList = [
     { id: 1, title: "All", value: "*" },
     { id: 2, title: "Practice", value: ".practice" },
-    { id: 3, title: "Match", value: ".matche" },
+    { id: 3, title: "Match", value: ".match" },
     { id: 4, title: "Events", value: ".events" },
   ];
   const portfolioList = [
@@ -21,7 +21,7 @@ export default function Portfolio() {
       id: 1,
       image: "1",
       title: "TaiChi Federation Of India",
-      category: "matche events",
+      category: "match events",
     },
     {
       id: 2,
@@ -33,7 +33,7 @@ export default function Portfolio() {
       id: 3,
       image: "3",
       title: "TaiChi Federation Of India",
-      category: "pastries events",
+      category: "practice events",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ export default function Portfolio() {
       id: 5,
       image: "5",
       title: "TaiChi Federation Of India",
-      category: "pastries events",
+      category: "practice events",
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ export default function Portfolio() {
       id: 7,
       image: "7",
       title: "TaiChi Federation Of India",
-      category: "practice matche",
+      category: "practice match",
     },
     {
       id: 8,
@@ -81,7 +81,7 @@ export default function Portfolio() {
       id: 11,
       image: "11",
       title: "TaiChi Federation Of India",
-      category: "matche",
+      category: "match",
     },
     {
       id: 12,
@@ -93,7 +93,7 @@ export default function Portfolio() {
       id: 13,
       image: "13",
       title: "TaiChi Federation Of India",
-      category: "matche",
+      category: "match",
     },
     {
       id: 14,

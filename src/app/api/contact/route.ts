@@ -22,9 +22,9 @@ export async function POST(req: Request) {
             );
         }
 
-        const SMTP_USER = process.env.SMTP_USER;
-        const SMTP_PASS = process.env.SMTP_PASS;
-        const SMTP_RECEIVER = process.env.SMTP_RECEIVER || "authenticacademy.official@gmail.com";
+        const SMTP_USER = process.env.SMTP_USER?.trim();
+        const SMTP_PASS = process.env.SMTP_PASS?.replace(/\s+/g, "");
+        const SMTP_RECEIVER = process.env.SMTP_RECEIVER?.trim() || "authenticacademy.official@gmail.com";
 
         if (!SMTP_USER || !SMTP_PASS) {
             console.error("SMTP credentials are not set in environment variables.");

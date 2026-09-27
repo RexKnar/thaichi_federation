@@ -26,10 +26,10 @@ const ReplaceMe = (function () {
       animation: 'animated fadeIn', // String (animation class)
       speed: 2000, // Integer
       separator: ',', // String
-      hoverStop: false, // Boolen
-      clickChange: false, // Boolen
+      hoverStop: false, // Boolean
+      clickChange: false, // Boolean
       loopCount: 'infinite', // String or integer
-      autoRun: true, // Boolen
+      autoRun: true, // Boolean
       onInit: false, // Function
       onChange: false, // Function
       onComplete: false // Function
